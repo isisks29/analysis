@@ -1,0 +1,1761 @@
+
+====================================================================================================
+### OBJECTIVE-C RUNTIME METADATA (raw parse: classes, methods, ivars, properties, protocols, refs)
+====================================================================================================
+=== OBJECTIVE-C METADATA ===
+  section __objc_methname        addr=0x3dda0b size=0x30a5 offset=0x3dda0b
+  section __objc_classname       addr=0x3dd8a8 size=0x163 offset=0x3dd8a8
+  section __objc_methtype        addr=0x3e0ab0 size=0xdea offset=0x3e0ab0
+  section __objc_ivar            addr=0x3ee048 size=0xb4 offset=0x3ee048
+  section __objc_classlist       addr=0x3e9cb8 size=0x88 offset=0x3e9cb8
+  section __objc_catlist         addr=0x3e9d50 size=0x10 offset=0x3e9d50
+  section __objc_protolist       addr=0x3e9d60 size=0x30 offset=0x3e9d60
+  section __objc_selrefs         addr=0x3ecff0 size=0xde0 offset=0x3ecff0
+  section __objc_classrefs       addr=0x3eddd0 size=0x230 offset=0x3eddd0
+  section __objc_superrefs       addr=0x3ee000 size=0x48 offset=0x3ee000
+  section __objc_data            addr=0x3ee100 size=0x550 offset=0x3ee100
+  section __objc_const           addr=0x3e9d98 size=0x3258 offset=0x3e9d98
+  section __objc_imageinfo       addr=0x3e9d90 size=0x8 offset=0x3e9d90
+  section __data                 addr=0x3ee700 size=0xb38 offset=0x3ee700
+  section __const                addr=0x150ba0 size=0x288061 offset=0x150ba0
+
+=== SELECTORS (__objc_methname) count=643 ===
+  0x3dda0b  CGColor
+  0x3dda13  T#,R
+  0x3dda18  T{CGPoint=dd},N
+  0x3dda28  T@"<MTLCommandQueue>",&,N,V_commandQueue
+  0x3dda51  URL
+  0x3dda55  T@"<MTLTexture>",&,N,V_fontTexture
+  0x3dda78  _loader
+  0x3dda80  T@"MTKTextureLoader",&,N,V_loader
+  0x3ddaa2  _q1
+  0x3ddaa6  T@"NSMutableArray",&,N,V_bufferCache
+  0x3ddacb  _q3
+  0x3ddacf  T@"NSMutableDictionary",&,N,V_renderPipelineStateCache
+  0x3ddb06  _q9
+  0x3ddb0a  T@"NSString",C,N,V_accessGroup
+  0x3ddb29  allKeys
+  0x3ddb31  T@"NSString",C,N,V_label
+  0x3ddb4a  bundleForClass:
+  0x3ddb5a  T@"NSString",C,N,V_service
+  0x3ddb75  centerY
+  0x3ddb7d  T@"NSTimer",&,N,V_q12
+  0x3ddb93  containsString:
+  0x3ddba3  T@"NSURLSessionDataTask",&,N,V_q0
+  0x3ddbc5  currentDrawable
+  0x3ddbd5  T@"UIView",&,N,V_clearView
+  0x3ddbf0  depthAttachment
+  0x3ddc00  T@"UIViewController",W,N,V_orientationSource
+  0x3ddc2d  didMoveToWindow
+  0x3ddc3d  T@"_0xB1D7F3A9",&,N,V__0xB1D7F3A9
+  0x3ddc5f  initWithBuffer:
+  0x3ddc6f  TB,N,V_q13
+  0x3ddc7a  initWithFrame::
+  0x3ddc8a  TQ,N,V_colorPixelFormat
+  0x3ddca2  layouts
+  0x3ddcaa  TQ,N,V_sampleCount
+  0x3ddcbd  m0:
+  0x3ddcc1  TQ,N,V_synchronizationMode
+  0x3ddcdc  n1:
+  0x3ddce0  T^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}},N,V__0xE4C8719B
+  0x3ddd56  newCommandQueue
+  0x3ddd66  Td,N,V_lastBufferCachePurge
+  0x3ddd82  passwordDataForService:account:
+  0x3ddda2  Td,N,V_q10
+  0x3dddad  pushDebugGroup:
+  0x3dddbd  Td,N,V_q14
+  0x3dddc8  q11
+  0x3dddcc  Td,N,V_q3
+  0x3dddd6  q13
+  0x3dddda  Tq,N,V_q9
+  0x3ddde4  q15
+  0x3ddde8  T{CGSize=dd},N
+  0x3dddf7  q17
+  0x3dddfb  URLProtocol:didFailWithError:
+  0x3dde19  q6:
+  0x3dde1d  URLProtocol:didReceiveResponse:cacheStoragePolicy:
+  0x3dde50  release
+  0x3dde58  URLSession:dataTask:didBecomeDownloadTask:
+  0x3dde83  request
+  0x3dde8b  URLSession:dataTask:didReceiveData:
+  0x3ddeaf  setAccessGroup:
+  0x3ddebf  URLSession:dataTask:willCacheResponse:completionHandler:
+  0x3ddef8  setBufferCache:
+  0x3ddf08  URLSession:didCreateTask:
+  0x3ddf22  setDestinationAlphaBlendFactor:
+  0x3ddf42  URLSession:task:didCompleteWithError:
+  0x3ddf68  setPassword:forService:account:
+  0x3ddf88  URLSession:task:didReceiveChallenge:completionHandler:
+  0x3ddfbf  setPlaceholder:
+  0x3ddfcf  URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:
+  0x3de018  setQ11:
+  0x3de020  URLSession:task:needNewBodyStreamFromOffset:completionHandler:
+  0x3de05f  setQ13:
+  0x3de067  URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:
+  0x3de0b0  setQ15:
+  0x3de0b8  URLSessionDidFinishEventsForBackgroundURLSession:
+  0x3de0ea  setScissorRect:
+  0x3de0fa  UTF8String
+  0x3de105  setStorageMode:
+  0x3de115  UUIDString
+  0x3de120  setVertexBuffer:offset:atIndex:
+  0x3de140  _0xB1D7F3A9
+  0x3de14c  set_0xB1D7F3A9:
+  0x3de15c  _0xE4C8719B
+  0x3de168  set_0xE4C8719B:
+  0x3de178  __0xC8E2A541
+  0x3de185  stringByAppendingPathComponent:
+  0x3de1a5  _accessGroup
+  0x3de1b2  texture
+  0x3de1ba  _bufferCache
+  0x3de1c7  touchesForView:
+  0x3de1d7  _colorPixelFormat
+  0x3de1e9  windows
+  0x3de1f1  .cxx_destruct
+  0x3de1ff  T@"UITextField",&,N,V_textField
+  0x3de21f  T@"<MTLBuffer>",&,N,V_buffer
+  0x3de23c  T{CGPoint=dd},N,V_startLocation
+  0x3de25c  T@"<MTLDepthStencilState>",&,N,V_depthStencilState
+  0x3de28f  _buffer
+  0x3de297  T@"<NSCoding>",C,N
+  0x3de2aa  _q0
+  0x3de2ae  T@"NSData",C,N,V_passwordData
+  0x3de2cc  _q2
+  0x3de2d0  T@"NSMutableData",&,N,V_q1
+  0x3de2eb  _q8
+  0x3de2ef  T@"NSString",C,N
+  0x3de300  account
+  0x3de308  T@"NSString",C,N,V_account
+  0x3de323  base64EncodedStringWithOptions:
+  0x3de343  T@"NSString",C,N,V_q1
+  0x3de359  centerX
+  0x3de361  T@"NSString",R,C
+  0x3de372  containsObject:
+  0x3de382  T@"NSTimer",&,N,V_q8
+  0x3de397  coordinateSpace
+  0x3de3a7  T@"UIImageView",&,N,V_iconImageView
+  0x3de3cb  dealloc
+  0x3de3d3  T@"UIViewController",R,N
+  0x3de3ec  didMoveLocation
+  0x3de3fc  T@"_0x6E3B8D52",&,N,V_framebufferDescriptor
+  0x3de428  displayLinkWithTarget:selector:
+  0x3de448  T@"_0xC8E2A541",&,N,V__0xC8E2A541
+  0x3de46a  initWithDevice:
+  0x3de47a  TB,N,V_q2
+  0x3de484  isProxy
+  0x3de48c  TQ,N,V_depthPixelFormat
+  0x3de4a4  locationInView:
+  0x3de4b4  TQ,N,V_stencilPixelFormat
+  0x3de4ce  mtkView:drawableSizeWillChange:
+  0x3de4ee  TQ,R
+  0x3de4f3  new
+  0x3de4f7  Td,N
+  0x3de4fc  numberWithBool:
+  0x3de50c  Td,N,V_lastReuseTime
+  0x3de521  protocolClasses
+  0x3de531  Td,N,V_q11
+  0x3de53c  q10
+  0x3de540  Td,N,V_q15
+  0x3de54b  q12
+  0x3de54f  Td,R,N
+  0x3de556  q14
+  0x3de55a  T{CGPoint=dd},N,V_didMoveLocation
+  0x3de57c  q16
+  0x3de580  URLForResource:withExtension:
+  0x3de59e  q19
+  0x3de5a2  URLProtocol:didLoadData:
+  0x3de5bb  q7:
+  0x3de5bf  URLProtocolDidFinishLoading:
+  0x3de5dc  removeObserver:
+  0x3de5ec  URLSession:dataTask:didBecomeStreamTask:
+  0x3de615  service
+  0x3de61d  URLSession:dataTask:didReceiveResponse:completionHandler:
+  0x3de657  setBool:forKey:
+  0x3de667  URLSession:didBecomeInvalidWithError:
+  0x3de68d  setBufferIndex:
+  0x3de69d  URLSession:didReceiveChallenge:completionHandler:
+  0x3de6cf  setFontTexture:
+  0x3de6df  URLSession:task:didFinishCollectingMetrics:
+  0x3de70b  setPixelFormat:
+  0x3de71b  URLSession:task:didReceiveInformationalResponse:
+  0x3de74c  setQ10:
+  0x3de754  URLSession:task:needNewBodyStream:
+  0x3de777  setQ12:
+  0x3de77f  URLSession:task:willBeginDelayedRequest:completionHandler:
+  0x3de7ba  setQ14:
+  0x3de7c2  URLSession:taskIsWaitingForConnectivity:
+  0x3de7eb  setSampleCount:
+  0x3de7fb  URLWithString:
+  0x3de80a  setShadowColor:
+  0x3de81a  UUID
+  0x3de81f  setTop:
+  0x3de827  _0x73C9A1E5:
+  0x3de834  setWindowLevel:
+  0x3de844  _0xC8E2A541
+  0x3de850  set_0xC8E2A541:
+  0x3de860  __0xB1D7F3A9
+  0x3de86d  setupUI
+  0x3de875  __0xE4C8719B
+  0x3de882  stringFromDate:
+  0x3de892  _account
+  0x3de89b  top
+  0x3de89f  _clearView
+  0x3de8aa  uppercaseString
+  0x3de8ba  _commandQueue
+  0x3de8c8  _depthPixelFormat
+  0x3de8da  _depthStencilState
+  0x3de8ed  _didMoveLocation
+  0x3de8fe  _fontTexture
+  0x3de90b  _framebufferDescriptor
+  0x3de922  _iconImageView
+  0x3de931  _label
+  0x3de938  _lastBufferCachePurge
+  0x3de94e  _lastReuseTime
+  0x3de95d  _orientationSource
+  0x3de970  _passwordData
+  0x3de97e  _q10
+  0x3de983  _q11
+  0x3de988  _q12
+  0x3de98d  _q13
+  0x3de992  _q14
+  0x3de997  _q15
+  0x3de99c  _renderPipelineStateCache
+  0x3de9b6  _renderPipelineStateForFramebufferDescriptor:device:
+  0x3de9eb  _sampleCount
+  0x3de9f8  _service
+  0x3dea01  _startLocation
+  0x3dea10  _stencilPixelFormat
+  0x3dea24  _synchronizationMode
+  0x3dea39  _textField
+  0x3dea44  absoluteString
+  0x3dea53  accessGroup
+  0x3dea5f  accessibilityType
+  0x3dea71  accountsForService:
+  0x3dea85  accountsForService:error:
+  0x3dea9f  actionWithTitle:style:handler:
+  0x3deabe  addAction:
+  0x3deac9  addCompletedHandler:
+  0x3deade  addGestureRecognizer:
+  0x3deaf4  addObject:
+  0x3deaff  addObjectsFromArray:
+  0x3deb14  addObserver:selector:name:object:
+  0x3deb36  addObserverForName:object:queue:usingBlock:
+  0x3deb62  addSubview:
+  0x3deb6e  addTextFieldWithConfigurationHandler:
+  0x3deb94  addToRunLoop:forMode:
+  0x3debaa  alertControllerWithTitle:message:preferredStyle:
+  0x3debdb  allAccounts
+  0x3debe7  allAccounts:
+  0x3debf4  allocWithZone:
+  0x3dec03  alpha
+  0x3dec09  anyObject
+  0x3dec13  appendBytes:length:
+  0x3dec27  appendData:
+  0x3dec33  appendFormat:
+  0x3dec41  appendString:
+  0x3dec4f  applicationState
+  0x3dec60  archivedDataWithRootObject:
+  0x3dec7c  array
+  0x3dec82  arrayWithObject:
+  0x3dec93  arrayWithObjects:count:
+  0x3decab  attributes
+  0x3decb6  autorelease
+  0x3decc2  boolForKey:
+  0x3decce  boolValue
+  0x3decd8  bottom
+  0x3decdf  bounds
+  0x3dece6  bringSubviewToFront:
+  0x3decfb  buffer
+  0x3ded02  bufferCache
+  0x3ded0e  bundleWithURL:
+  0x3ded1d  bytes
+  0x3ded23  canBecomeKeyWindow
+  0x3ded36  canInitWithRequest:
+  0x3ded4a  cancel
+  0x3ded51  canonicalRequestForRequest:
+  0x3ded6d  center
+  0x3ded74  characterAtIndex:
+  0x3ded86  class
+  0x3ded8c  clearColor
+  0x3ded97  clearView
+  0x3deda1  client
+  0x3deda8  colorAttachments
+  0x3dedb9  colorPixelFormat
+  0x3dedca  colorWithHexString:
+  0x3dedde  colorWithHexString:alpha:
+  0x3dedf8  colorWithRed:green:blue:alpha:
+  0x3dee17  commandBuffer
+  0x3dee25  commandQueue
+  0x3dee32  commit
+  0x3dee39  compare:
+  0x3dee42  conformsToProtocol:
+  0x3dee56  contentScaleFactor
+  0x3dee69  contents
+  0x3dee72  contentsOfDirectoryAtPath:error:
+  0x3dee93  convertPoint:fromView:
+  0x3deeaa  convertPoint:fromViewOrWindow:
+  0x3deec9  convertPoint:fromWindow:
+  0x3deee2  convertPoint:toView:
+  0x3deef7  convertPoint:toViewOrWindow:
+  0x3def14  convertPoint:toWindow:
+  0x3def2b  convertRect:fromView:
+  0x3def41  convertRect:fromViewOrWindow:
+  0x3def5f  convertRect:fromWindow:
+  0x3def77  convertRect:toView:
+  0x3def8b  convertRect:toViewOrWindow:
+  0x3defa7  convertRect:toWindow:
+  0x3defbd  copy
+  0x3defc2  copyWithZone:
+  0x3defd0  count
+  0x3defd6  countByEnumeratingWithState:objects:count:
+  0x3df001  createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+  0x3df045  createFileAtPath:contents:attributes:
+  0x3df06b  currentDevice
+  0x3df079  currentRenderPassDescriptor
+  0x3df095  d0
+  0x3df098  d1
+  0x3df09b  d2
+  0x3df09e  data
+  0x3df0a3  dataTaskWithRequest:
+  0x3df0b8  dataTaskWithURL:completionHandler:
+  0x3df0db  dataUsingEncoding:
+  0x3df0ee  dataWithBytes:length:
+  0x3df104  dataWithContentsOfFile:
+  0x3df11c  dataWithContentsOfURL:
+  0x3df133  dataWithJSONObject:options:error:
+  0x3df155  date
+  0x3df15a  dateWithTimeIntervalSince1970:
+  0x3df179  debugDescription
+  0x3df18a  defaultCenter
+  0x3df198  defaultManager
+  0x3df1a7  defaultSessionConfiguration
+  0x3df1c3  deleteItem:
+  0x3df1cf  deletePasswordForService:account:
+  0x3df1f1  deletePasswordForService:account:error:
+  0x3df219  depthPixelFormat
+  0x3df22a  depthStencilState
+  0x3df23c  dequeueReusableBufferOfLength:device:
+  0x3df262  description
+  0x3df26e  device
+  0x3df275  dictionary
+  0x3df280  dictionaryWithCapacity:
+  0x3df298  dictionaryWithObjects:forKeys:count:
+  0x3df2bd  drawInMTKView:
+  0x3df2cc  drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:
+  0x3df316  drawViewHierarchyInRect:afterScreenUpdates:
+  0x3df342  drawableSize
+  0x3df34f  emptyRenderPipelineStateCache
+  0x3df36d  endEncoding
+  0x3df379  enqueueReusableBuffer:
+  0x3df390  errorWithCode:
+  0x3df39f  errorWithDomain:code:userInfo:
+  0x3df3be  fetch:
+  0x3df3c5  fetchAll:
+  0x3df3cf  fileExistsAtPath:
+  0x3df3e1  firstObject
+  0x3df3ed  fontTexture
+  0x3df3f9  frame
+  0x3df3ff  framebufferDescriptor
+  0x3df415  generalPasteboard
+  0x3df427  hasPrefix:
+  0x3df432  hash
+  0x3df437  height
+  0x3df43e  hitTest:withEvent:
+  0x3df451  iconImageView
+  0x3df45f  iconOnClick
+  0x3df46b  imageWithData:
+  0x3df47a  infoDictionary
+  0x3df489  init
+  0x3df48e  initWithBase64EncodedString:options:
+  0x3df4b3  initWithBytes:length:encoding:
+  0x3df4d2  initWithCoder:
+  0x3df4e1  initWithData:encoding:
+  0x3df4f8  initWithFrame:
+  0x3df507  initWithFrame::::
+  0x3df519  initWithRenderPassDescriptor:
+  0x3df537  initWithTarget:action:
+  0x3df54e  initWithUTF8String:
+  0x3df562  initWithWindowScene:
+  0x3df577  integerForKey:
+  0x3df586  invalidate
+  0x3df591  isDescendantOfView:
+  0x3df5a5  isEqual:
+  0x3df5ae  isEqualToString:
+  0x3df5bf  isHidden
+  0x3df5c8  isKindOfClass:
+  0x3df5d7  isMainThread
+  0x3df5e4  isMemberOfClass:
+  0x3df5f5  isOpaque
+  0x3df5fe  isSynchronizationAvailable
+  0x3df619  keyWindow
+  0x3df623  label
+  0x3df629  lastBufferCachePurge
+  0x3df63e  lastObject
+  0x3df649  lastReuseTime
+  0x3df657  layer
+  0x3df65d  layoutIfNeeded
+  0x3df66c  layoutSubviews
+  0x3df67b  left
+  0x3df680  length
+  0x3df687  load
+  0x3df68c  loader
+  0x3df693  localizedStringForKey:value:table:
+  0x3df6b6  m1
+  0x3df6b9  m2
+  0x3df6bc  m3
+  0x3df6bf  m4
+  0x3df6c2  mainBundle
+  0x3df6cd  mainQueue
+  0x3df6d7  mainRunLoop
+  0x3df6e3  mainScreen
+  0x3df6ee  makeDeviceObjectsWithDevice:
+  0x3df70b  makeFontTextureWithDevice:
+  0x3df726  maximumFramesPerSecond
+  0x3df73d  model
+  0x3df743  mutableCopy
+  0x3df74f  n0
+  0x3df752  n2:::
+  0x3df758  name
+  0x3df75d  newBufferWithLength:options:
+  0x3df77a  newDepthStencilStateWithDescriptor:
+  0x3df79e  newFunctionWithName:
+  0x3df7b3  newLibraryWithSource:options:error:
+  0x3df7d7  newRenderPipelineStateWithDescriptor:error:
+  0x3df803  newTextureWithDescriptor:
+  0x3df81d  nextResponder
+  0x3df82b  numberWithInt:
+  0x3df83a  numberWithLongLong:
+  0x3df84e  objectAtIndexedSubscript:
+  0x3df868  objectForKey:
+  0x3df876  objectForKeyedSubscript:
+  0x3df88f  openURL:options:completionHandler:
+  0x3df8b2  orientationSource
+  0x3df8c4  origin
+  0x3df8cb  password
+  0x3df8d4  passwordData
+  0x3df8e1  passwordDataForService:account:error:
+  0x3df907  passwordForService:account:
+  0x3df923  passwordForService:account:error:
+  0x3df945  passwordObject
+  0x3df954  performSelector:
+  0x3df965  performSelector:withObject:
+  0x3df981  performSelector:withObject:withObject:
+  0x3df9a8  phase
+  0x3df9ae  pixelFormat
+  0x3df9ba  popDebugGroup
+  0x3df9c8  postNotificationName:object:
+  0x3df9e5  preferredFramesPerSecond
+  0x3df9fe  preferredInterfaceOrientationForPresentation
+  0x3dfa2b  preferredLanguages
+  0x3dfa3e  preferredScreenEdgesDeferringSystemGestures
+  0x3dfa6a  prefersHomeIndicatorAutoHidden
+  0x3dfa89  prefersStatusBarHidden
+  0x3dfaa0  presentDrawable:
+  0x3dfab1  presentViewController:animated:completion:
+  0x3dfadc  presentedViewController
+  0x3dfaf4  propertyForKey:inRequest:
+  0x3dfb0e  propertyListWithData:options:format:error:
+  0x3dfb39  q0
+  0x3dfb3c  q1
+  0x3dfb3f  q18:
+  0x3dfb44  q2
+  0x3dfb47  q20:
+  0x3dfb4c  q21:
+  0x3dfb51  q22:
+  0x3dfb56  q3
+  0x3dfb59  q4
+  0x3dfb5c  q5
+  0x3dfb5f  q8
+  0x3dfb62  q9
+  0x3dfb65  query
+  0x3dfb6b  rangeOfData:options:range:
+  0x3dfb86  rangeOfString:
+  0x3dfb95  registerClass:
+  0x3dfba4  regularExpressionWithPattern:options:error:
+  0x3dfbd0  removeAllCachedResponses
+  0x3dfbe9  removeAllObjects
+  0x3dfbfa  removeAllSubviews
+  0x3dfc0c  removeFromSuperview
+  0x3dfc20  removeItemAtPath:error:
+  0x3dfc38  removeObject:
+  0x3dfc46  removeObjectForKey:
+  0x3dfc5a  renderCommandEncoderWithDescriptor:
+  0x3dfc7e  renderDrawData:commandBuffer:commandEncoder:
+  0x3dfcab  renderInContext:
+  0x3dfcbc  renderPipelineStateCache
+  0x3dfcd5  renderPipelineStateForFrameAndDevice:
+  0x3dfcfb  replaceRegion:mipmapLevel:withBytes:bytesPerRow:
+  0x3dfd2c  respondsToSelector:
+  0x3dfd40  resume
+  0x3dfd47  retain
+  0x3dfd4e  retainCount
+  0x3dfd5a  right
+  0x3dfd60  rootViewController
+  0x3dfd73  sampleCount
+  0x3dfd7f  save:
+  0x3dfd85  scale
+  0x3dfd8b  scanHexInt:
+  0x3dfd97  scannerWithString:
+  0x3dfdaa  scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
+  0x3dfdeb  self
+  0x3dfdf0  sessionWithConfiguration:delegate:delegateQueue:
+  0x3dfe21  setAccessibilityType:
+  0x3dfe37  setAccount:
+  0x3dfe43  setAlphaBlendOperation:
+  0x3dfe5b  setAutocapitalizationType:
+  0x3dfe76  setAutocorrectionType:
+  0x3dfe8d  setAutoresizingMask:
+  0x3dfea2  setBackgroundColor:
+  0x3dfeb6  setBlendingEnabled:
+  0x3dfeca  setBottom:
+  0x3dfed5  setBuffer:
+  0x3dfee0  setCenter:
+  0x3dfeeb  setCenterX:
+  0x3dfef7  setCenterY:
+  0x3dff03  setClearColor:
+  0x3dff12  setClearView:
+  0x3dff20  setColorPixelFormat:
+  0x3dff35  setCommandQueue:
+  0x3dff46  setCornerRadius:
+  0x3dff57  setCullMode:
+  0x3dff64  setDateFormat:
+  0x3dff73  setDelegate:
+  0x3dff80  setDepthAttachmentPixelFormat:
+  0x3dff9f  setDepthCompareFunction:
+  0x3dffb8  setDepthPixelFormat:
+  0x3dffcd  setDepthStencilState:
+  0x3dffe3  setDepthWriteEnabled:
+  0x3dfff9  setDestinationRGBBlendFactor:
+  0x3e0017  setDevice:
+  0x3e0022  setDidMoveLocation:
+  0x3e0036  setExclusiveTouch:
+  0x3e0049  setFormat:
+  0x3e0054  setFragmentFunction:
+  0x3e0069  setFragmentTexture:atIndex:
+  0x3e0085  setFrame:
+  0x3e008f  setFramebufferDescriptor:
+  0x3e00a9  setHeight:
+  0x3e00b4  setHidden:
+  0x3e00bf  setIconImageView:
+  0x3e00d1  setImage:
+  0x3e00db  setLabel:
+  0x3e00e5  setLastBufferCachePurge:
+  0x3e00fe  setLastReuseTime:
+  0x3e0110  setLayerShadow:offset:radius:
+  0x3e012e  setLeft:
+  0x3e0137  setLoader:
+  0x3e0142  setMasksToBounds:
+  0x3e0154  setMultipleTouchEnabled:
+  0x3e016d  setNeedsLayout
+  0x3e017c  setNeedsStatusBarAppearanceUpdate
+  0x3e019e  setObject:forKey:
+  0x3e01b0  setObject:forKeyedSubscript:
+  0x3e01cd  setOffset:
+  0x3e01d8  setOrientationSource:
+  0x3e01ee  setOrigin:
+  0x3e01f9  setPassword:
+  0x3e0206  setPassword:forService:account:error:
+  0x3e022c  setPasswordData:
+  0x3e023d  setPasswordData:forService:account:
+  0x3e0261  setPasswordData:forService:account:error:
+  0x3e028b  setPasswordObject:
+  0x3e029e  setPreferredFramesPerSecond:
+  0x3e02bb  setProperty:forKey:inRequest:
+  0x3e02d9  setProtocolClasses:
+  0x3e02ed  setQ0:
+  0x3e02f4  setQ1:
+  0x3e02fb  setQ2:
+  0x3e0302  setQ3:
+  0x3e0309  setQ8:
+  0x3e0310  setQ9:
+  0x3e0317  setRasterizationScale:
+  0x3e032e  setRenderPipelineState:
+  0x3e0346  setRenderPipelineStateCache:
+  0x3e0363  setRgbBlendOperation:
+  0x3e0379  setRight:
+  0x3e0383  setRootViewController:
+  0x3e039a  setSecureTextEntry:
+  0x3e03ae  setService:
+  0x3e03ba  setShadowOffset:
+  0x3e03cb  setShadowOpacity:
+  0x3e03dd  setShadowRadius:
+  0x3e03ee  setShouldRasterize:
+  0x3e0402  setSize:
+  0x3e040b  setSourceAlphaBlendFactor:
+  0x3e0426  setSourceRGBBlendFactor:
+  0x3e043f  setStartLocation:
+  0x3e0451  setStencilAttachmentPixelFormat:
+  0x3e0472  setStencilPixelFormat:
+  0x3e0489  setStepFunction:
+  0x3e049a  setStepRate:
+  0x3e04a7  setStride:
+  0x3e04b2  setSynchronizationMode:
+  0x3e04ca  setTextField:
+  0x3e04d8  setUsage:
+  0x3e04e2  setUserInteractionEnabled:
+  0x3e04fd  setVertexBufferOffset:atIndex:
+  0x3e051c  setVertexBytes:length:atIndex:
+  0x3e053b  setVertexDescriptor:
+  0x3e0550  setVertexFunction:
+  0x3e0563  setViewport:
+  0x3e0570  setWidth:
+  0x3e057a  setupRenderState:commandBuffer:commandEncoder:renderPipelineState:vertexBuffer:vertexBufferOffset:
+  0x3e05dd  sharedApplication
+  0x3e05ef  sharedSession
+  0x3e05fd  sharedURLCache
+  0x3e060c  shouldAutorotate
+  0x3e061d  size
+  0x3e0622  snapshotImage
+  0x3e0630  snapshotImageAfterScreenUpdates:
+  0x3e0651  snapshotPDF
+  0x3e065d  sortedArrayUsingSelector:
+  0x3e0677  standardUserDefaults
+  0x3e068c  startLoading
+  0x3e0699  startLocation
+  0x3e06a7  statusBarOrientation
+  0x3e06bc  stencilAttachment
+  0x3e06ce  stencilPixelFormat
+  0x3e06e1  stopLoading
+  0x3e06ed  string
+  0x3e06f4  stringByAppendingString:
+  0x3e070d  stringByReplacingMatchesInString:options:range:withTemplate:
+  0x3e074a  stringByReplacingOccurrencesOfString:withString:
+  0x3e077b  stringByTrimmingCharactersInSet:
+  0x3e079c  stringForKey:
+  0x3e07aa  stringWithCapacity:
+  0x3e07be  stringWithCharacters:length:
+  0x3e07db  stringWithFormat:
+  0x3e07ed  stringWithString:
+  0x3e07ff  stringWithUTF8String:
+  0x3e0815  subdataWithRange:
+  0x3e0827  substringFromIndex:
+  0x3e083b  substringWithRange:
+  0x3e084f  subviews
+  0x3e0858  superclass
+  0x3e0863  superview
+  0x3e086d  supportedInterfaceOrientations
+  0x3e088c  synchronizationMode
+  0x3e08a0  synchronize
+  0x3e08ac  systemTimeZone
+  0x3e08bb  systemVersion
+  0x3e08c9  text
+  0x3e08ce  textField
+  0x3e08d8  textFields
+  0x3e08e3  texture2DDescriptorWithPixelFormat:width:height:mipmapped:
+  0x3e091e  tick:
+  0x3e0924  timeIntervalSince1970
+  0x3e093a  touchesBegan:withEvent:
+  0x3e0952  touchesCancelled:withEvent:
+  0x3e096e  touchesEnded:withEvent:
+  0x3e0986  touchesMoved:withEvent:
+  0x3e099e  unarchiveObjectWithData:
+  0x3e09b7  updateIOWithTouches:event:
+  0x3e09d2  userInterfaceIdiom
+  0x3e09e5  vertexDescriptor
+  0x3e09f6  view
+  0x3e09fb  viewController
+  0x3e0a0a  visibleAlpha
+  0x3e0a17  whitespaceAndNewlineCharacterSet
+  0x3e0a38  width
+  0x3e0a3e  window
+  0x3e0a45  windowScene
+  0x3e0a51  writeToFile:atomically:
+  0x3e0a69  writeToFile:atomically:encoding:error:
+  0x3e0a90  writeToFile:options:error:
+  0x3e0aab  zone
+
+=== CLASS NAMES (__objc_classname) count=30 ===
+  0x3dd8a8  _0x6D1C8F45
+  0x3dd8b5  _0xB1D7F3A9
+  0x3dd8c1  _0xE4A91C73
+  0x3dd8cd  NSURLSessionDataDelegate
+  0x3dd8e6  NSURLSessionTaskDelegate
+  0x3dd8ff  NSURLSessionDelegate
+  0x3dd914  NSObject
+  0x3dd91d  
+  0x3dd91f  _0xF2A74C19
+  0x3dd92b  
+  0x3dd92d  _0x6E3B8D52
+  0x3dd939  NSCopying
+  0x3dd943  _0xA91D5F47
+  0x3dd94f  
+  0x3dd951  _0x8C2F4D71
+  0x3dd95d  _0x3A9E5B62
+  0x3dd969  _0x1E6B7A93
+  0x3dd975  MTKViewDelegate
+  0x3dd985  
+  0x3dd988  _0x37C8E2B6
+  0x3dd994  _0x7D3B5E28
+  0x3dd9a0  1
+  0x3dd9a4  _0x8B4F26C1
+  0x3dd9b0  _0xA6C1F894
+  0x3dd9bc  _0xD4E9A3C7
+  0x3dd9c8  _0xD5A13E79
+  0x3dd9d4  YYSYNTH_DUMMY_CLASS_UIView_YYAdd
+  0x3dd9f5  YYAdd
+  0x3dd9fb  Hex
+  0x3dd9ff  _0xC8E2A541
+
+=== METHOD TYPE ENCODINGS (__objc_methtype) count=110 ===
+  0x3e0ab0  v24@0:8@16
+  0x3e0abb  @24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16
+  0x3e0b29  v16@0:8
+  0x3e0b31  ^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16@0:8
+  0x3e0b9c  v24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16
+  0x3e0c0a  ^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}
+  0x3e0c6f  B24@0:8@16
+  0x3e0c7a  @24@0:8@16
+  0x3e0c85  #16@0:8
+  0x3e0c8d  @16@0:8
+  0x3e0c95  @24@0:8:16
+  0x3e0ca0  @32@0:8:16@24
+  0x3e0cae  @40@0:8:16@24@32
+  0x3e0cbf  B16@0:8
+  0x3e0cc7  B24@0:8#16
+  0x3e0cd2  B24@0:8:16
+  0x3e0cdd  Vv16@0:8
+  0x3e0ce6  Q16@0:8
+  0x3e0cee  ^{_NSZone=}16@0:8
+  0x3e0d00  B24@0:8@"Protocol"16
+  0x3e0d15  @"NSString"16@0:8
+  0x3e0d27  v32@0:8@16@24
+  0x3e0d35  v40@0:8@16@24@?32
+  0x3e0d47  v32@0:8@"NSURLSession"16@"NSError"24
+  0x3e0d6c  v40@0:8@"NSURLSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32
+  0x3e0dc2  v24@0:8@"NSURLSession"16
+  0x3e0ddb  v48@0:8@16@24@32@?40
+  0x3e0df0  v56@0:8@16@24@32@40@?48
+  0x3e0e08  v48@0:8@16@24q32@?40
+  0x3e0e1d  v56@0:8@16@24q32q40q48
+  0x3e0e34  v40@0:8@16@24@32
+  0x3e0e45  v32@0:8@"NSURLSession"16@"NSURLSessionTask"24
+  0x3e0e73  v48@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLRequest"32@?<v@?q@"NSURLRequest">40
+  0x3e0ecb  v56@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48
+  0x3e0f38  v48@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40
+  0x3e0fa3  v40@0:8@"NSURLSession"16@"NSURLSessionTask"24@?<v@?@"NSInputStream">32
+  0x3e0fea  v48@0:8@"NSURLSession"16@"NSURLSessionTask"24q32@?<v@?@"NSInputStream">40
+  0x3e1034  v56@0:8@"NSURLSession"16@"NSURLSessionTask"24q32q40q48
+  0x3e106b  v40@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32
+  0x3e10af  v40@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLSessionTaskMetrics"32
+  0x3e10f9  v40@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSError"32
+  0x3e1133  v48@0:8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLResponse"32@?<v@?q>40
+  0x3e1181  v40@0:8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLSessionDownloadTask"32
+  0x3e11d0  v40@0:8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLSessionStreamTask"32
+  0x3e121d  v40@0:8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSData"32
+  0x3e125a  v48@0:8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSCachedURLResponse"32@?<v@?@"NSCachedURLResponse">40
+  0x3e12c3  @"NSURLSessionDataTask"
+  0x3e12db  @"NSMutableData"
+  0x3e12ec  d16@0:8
+  0x3e12f4  v24@0:8d16
+  0x3e12ff  @"<MTLBuffer>"
+  0x3e130e  d
+  0x3e1310  @24@0:8^{_NSZone=}16
+  0x3e1325  v24@0:8Q16
+  0x3e1330  Q
+  0x3e1332  @32@0:8Q16@24
+  0x3e1340  @32@0:8@16@24
+  0x3e134e  v64@0:8^{ImDrawData=Biii^^{ImDrawList}{ImVec2=ff}{ImVec2=ff}{ImVec2=ff}}16@24@32@40@48Q56
+  0x3e13a8  v40@0:8^{ImDrawData=Biii^^{ImDrawList}{ImVec2=ff}{ImVec2=ff}{ImVec2=ff}}16@24@32
+  0x3e13f9  @"<MTLDepthStencilState>"
+  0x3e1413  @"_0x6E3B8D52"
+  0x3e1422  @"NSMutableDictionary"
+  0x3e1439  @"<MTLTexture>"
+  0x3e1449  @"NSMutableArray"
+  0x3e145b  @40@0:8{CGPoint=dd}16@32
+  0x3e1474  q16@0:8
+  0x3e147c  @"UIViewController"
+  0x3e1490  v40@0:8@16{CGSize=dd}24
+  0x3e14a8  v40@0:8@"MTKView"16{CGSize=dd}24
+  0x3e14c9  v24@0:8@"MTKView"16
+  0x3e14dd  @72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}48@56@64
+  0x3e1573  @"<MTLCommandQueue>"
+  0x3e1588  @"MTKTextureLoader"
+  0x3e159c  @"_0xC8E2A541"
+  0x3e15ab  @"_0xB1D7F3A9"
+  0x3e15ba  @48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+  0x3e15e4  @"UITextField"
+  0x3e15f3  @"UIView"
+  0x3e15fd  q24@0:8@16
+  0x3e1608  v20@0:8B16
+  0x3e1613  v24@0:8q16
+  0x3e161e  B
+  0x3e1620  @"NSString"
+  0x3e162c  @"NSTimer"
+  0x3e1637  q
+  0x3e1639  @20@0:8i16
+  0x3e1644  B24@0:8^@16
+  0x3e1650  @24@0:8^@16
+  0x3e165c  @"NSData"
+  0x3e1666  @56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}48
+  0x3e16f6  {CGPoint=dd}16@0:8
+  0x3e1709  v32@0:8{CGPoint=dd}16
+  0x3e171f  @"UIImageView"
+  0x3e172e  {CGPoint="x"d"y"d}
+  0x3e1741  @40@0:8@16@24^@32
+  0x3e1753  B32@0:8@16@24
+  0x3e1761  B40@0:8@16@24^@32
+  0x3e1773  B40@0:8@16@24@32
+  0x3e1784  B48@0:8@16@24@32^@40
+  0x3e1799  @32@0:8@16^@24
+  0x3e17a8  ^v16@0:8
+  0x3e17b1  v24@0:8^v16
+  0x3e17bd  @20@0:8B16
+  0x3e17c8  v48@0:8@16{CGSize=dd}24d40
+  0x3e17e3  {CGPoint=dd}40@0:8{CGPoint=dd}16@32
+  0x3e1807  {CGRect={CGPoint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48
+  0x3e1853  {CGSize=dd}16@0:8
+  0x3e1865  v32@0:8{CGSize=dd}16
+  0x3e187a  @32@0:8@16d24
+  0x3e1888  @40@0:8@16^v24Q32
+
+=== CLASS STRUCTURES (__objc_classlist) ===
+
+--- CLASS[0] class_t @0x3ee128 ---
+   isa=0x3ee100  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3e9e00 flags=0x90 instanceStart=8 instanceSize=8
+   NAME = _0x6D1C8F45
+
+--- CLASS[1] class_t @0x3ee150 ---
+   isa=0x3ee178  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3e9f98 flags=0x90 instanceStart=8 instanceSize=16
+   NAME = _0xB1D7F3A9
+     method_list @0x3e9e90 entsize=24 count=8 flags=0
+       SEL=initWithFrame:  types=@24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16  imp=0x28814
+       SEL=m0:  types=v24@0:8@16  imp=0x2dc24
+       SEL=m1  types=v16@0:8  imp=0x3a8b4
+       SEL=m2  types=v16@0:8  imp=0x427e0
+       SEL=m3  types=v16@0:8  imp=0x45570
+       SEL=m4  types=v16@0:8  imp=0x4e1d0
+       SEL=_0xE4C8719B  types=^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16@0:8  imp=0x51898
+       SEL=set_0xE4C8719B:  types=v24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16  imp=0x518a0
+     property_list @0x3e9f80 count=1
+       @property _0xE4C8719B  attrs=T^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}},N,V__0xE4C8719B
+     ivar_list count=1
+       ivar __0xE4C8719B : ^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}
+
+--- CLASS[2] class_t @0x3ee1c8 ---
+   isa=0x3ee1a0  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSURLProtocol (/System/Library/Frameworks/CFNetwork.framework/CFNetwork)]
+   ro=0x3ea7b8 flags=0x194 instanceStart=16 instanceSize=32
+   NAME = _0xE4A91C73
+     method_list @0x3ea610 entsize=24 count=10 flags=0
+       SEL=startLoading  types=v16@0:8  imp=0x6e730
+       SEL=stopLoading  types=v16@0:8  imp=0x6ed30
+       SEL=URLSession:dataTask:didReceiveResponse:completionHandler:  types=v48@0:8@16@24@32@?40  imp=0x6ed84
+       SEL=URLSession:dataTask:didReceiveData:  types=v40@0:8@16@24@32  imp=0x6ee5c
+       SEL=URLSession:task:didCompleteWithError:  types=v40@0:8@16@24@32  imp=0x6eef4
+       SEL=q0  types=@16@0:8  imp=0x760f0
+       SEL=setQ0:  types=v24@0:8@16  imp=0x76100
+       SEL=q1  types=@16@0:8  imp=0x76114
+       SEL=setQ1:  types=v24@0:8@16  imp=0x76124
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x76138
+     property_list @0x3ea750 count=6
+       @property q0  attrs=T@"NSURLSessionDataTask",&,N,V_q0
+       @property q1  attrs=T@"NSMutableData",&,N,V_q1
+       @property hash  attrs=TQ,R
+       @property superclass  attrs=T#,R
+       @property description  attrs=T@"NSString",R,C
+       @property debugDescription  attrs=T@"NSString",R,C
+     protocol_list count=1
+       protocol @0x3eeb00 name=NSURLSessionDataDelegate
+     ivar_list count=2
+       ivar _q0 : @"NSURLSessionDataTask"
+       ivar _q1 : @"NSMutableData"
+
+--- CLASS[3] class_t @0x3ee240 ---
+   isa=0x3ee268  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ea950 flags=0x194 instanceStart=8 instanceSize=24
+   NAME = _0xF2A74C19
+     method_list @0x3ea848 entsize=24 count=6 flags=0
+       SEL=initWithBuffer:  types=@24@0:8@16  imp=0x8947c
+       SEL=buffer  types=@16@0:8  imp=0x89568
+       SEL=setBuffer:  types=v24@0:8@16  imp=0x89570
+       SEL=lastReuseTime  types=d16@0:8  imp=0x8957c
+       SEL=setLastReuseTime:  types=v24@0:8d16  imp=0x89584
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x8958c
+     property_list @0x3ea928 count=2
+       @property buffer  attrs=T@"<MTLBuffer>",&,N,V_buffer
+       @property lastReuseTime  attrs=Td,N,V_lastReuseTime
+     ivar_list count=2
+       ivar _buffer : @"<MTLBuffer>"
+       ivar _lastReuseTime : d
+
+--- CLASS[4] class_t @0x3ee218 ---
+   isa=0x3ee290  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3eac18 flags=0x90 instanceStart=8 instanceSize=40
+   NAME = _0x6E3B8D52
+     method_list @0x3eaa20 entsize=24 count=12 flags=0
+       SEL=initWithRenderPassDescriptor:  types=@24@0:8@16  imp=0x89598
+       SEL=copyWithZone:  types=@24@0:8^{_NSZone=}16  imp=0x8983c
+       SEL=hash  types=Q16@0:8  imp=0x89924
+       SEL=isEqual:  types=B24@0:8@16  imp=0x8994c
+       SEL=sampleCount  types=Q16@0:8  imp=0x89a94
+       SEL=setSampleCount:  types=v24@0:8Q16  imp=0x89a9c
+       SEL=colorPixelFormat  types=Q16@0:8  imp=0x89aa4
+       SEL=setColorPixelFormat:  types=v24@0:8Q16  imp=0x89aac
+       SEL=depthPixelFormat  types=Q16@0:8  imp=0x89ab4
+       SEL=setDepthPixelFormat:  types=v24@0:8Q16  imp=0x89abc
+       SEL=stencilPixelFormat  types=Q16@0:8  imp=0x89ac4
+       SEL=setStencilPixelFormat:  types=v24@0:8Q16  imp=0x89acc
+     property_list @0x3eabd0 count=4
+       @property sampleCount  attrs=TQ,N,V_sampleCount
+       @property colorPixelFormat  attrs=TQ,N,V_colorPixelFormat
+       @property depthPixelFormat  attrs=TQ,N,V_depthPixelFormat
+       @property stencilPixelFormat  attrs=TQ,N,V_stencilPixelFormat
+     protocol_list count=1
+       protocol @0x3eeb60 name=NSCopying
+     ivar_list count=4
+       ivar _sampleCount : Q
+       ivar _colorPixelFormat : Q
+       ivar _depthPixelFormat : Q
+       ivar _stencilPixelFormat : Q
+
+--- CLASS[5] class_t @0x3ee1f0 ---
+   isa=0x3ee2b8  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3eb008 flags=0x194 instanceStart=8 instanceSize=56
+   NAME = _0xA91D5F47
+     method_list @0x3eaca8 entsize=24 count=23 flags=0
+       SEL=init  types=@16@0:8  imp=0x89ad4
+       SEL=makeDeviceObjectsWithDevice:  types=v24@0:8@16  imp=0x89bec
+       SEL=makeFontTextureWithDevice:  types=v24@0:8@16  imp=0x89cd0
+       SEL=dequeueReusableBufferOfLength:device:  types=@32@0:8Q16@24  imp=0x89e30
+       SEL=enqueueReusableBuffer:  types=v24@0:8@16  imp=0x8a330
+       SEL=renderPipelineStateForFrameAndDevice:  types=@24@0:8@16  imp=0x8a3bc
+       SEL=_renderPipelineStateForFramebufferDescriptor:device:  types=@32@0:8@16@24  imp=0x8a584
+       SEL=emptyRenderPipelineStateCache  types=v16@0:8  imp=0x8b030
+       SEL=setupRenderState:commandBuffer:commandEncoder:renderPipelineState:vertexBuffer:vertexBufferOffset:  types=v64@0:8^{ImDrawData=Biii^^{ImDrawList}{ImVec2=ff}{ImVec2=ff}{ImVec2=ff}}16@24@32@40@48Q56  imp=0x8b084
+       SEL=renderDrawData:commandBuffer:commandEncoder:  types=v40@0:8^{ImDrawData=Biii^^{ImDrawList}{ImVec2=ff}{ImVec2=ff}{ImVec2=ff}}16@24@32  imp=0x8b2e4
+       SEL=depthStencilState  types=@16@0:8  imp=0x8ba74
+       SEL=setDepthStencilState:  types=v24@0:8@16  imp=0x8ba7c
+       SEL=framebufferDescriptor  types=@16@0:8  imp=0x8ba88
+       SEL=setFramebufferDescriptor:  types=v24@0:8@16  imp=0x8ba90
+       SEL=renderPipelineStateCache  types=@16@0:8  imp=0x8ba9c
+       SEL=setRenderPipelineStateCache:  types=v24@0:8@16  imp=0x8baa4
+       SEL=fontTexture  types=@16@0:8  imp=0x8bab0
+       SEL=setFontTexture:  types=v24@0:8@16  imp=0x8bab8
+       SEL=bufferCache  types=@16@0:8  imp=0x8bac4
+       SEL=setBufferCache:  types=v24@0:8@16  imp=0x8bacc
+       SEL=lastBufferCachePurge  types=d16@0:8  imp=0x8bad8
+       SEL=setLastBufferCachePurge:  types=v24@0:8d16  imp=0x8bae0
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x8bae8
+     property_list @0x3eafa0 count=6
+       @property depthStencilState  attrs=T@"<MTLDepthStencilState>",&,N,V_depthStencilState
+       @property framebufferDescriptor  attrs=T@"_0x6E3B8D52",&,N,V_framebufferDescriptor
+       @property renderPipelineStateCache  attrs=T@"NSMutableDictionary",&,N,V_renderPipelineStateCache
+       @property fontTexture  attrs=T@"<MTLTexture>",&,N,V_fontTexture
+       @property bufferCache  attrs=T@"NSMutableArray",&,N,V_bufferCache
+       @property lastBufferCachePurge  attrs=Td,N,V_lastBufferCachePurge
+     ivar_list count=6
+       ivar _depthStencilState : @"<MTLDepthStencilState>"
+       ivar _framebufferDescriptor : @"_0x6E3B8D52"
+       ivar _renderPipelineStateCache : @"NSMutableDictionary"
+       ivar _fontTexture : @"<MTLTexture>"
+       ivar _bufferCache : @"NSMutableArray"
+       ivar _lastBufferCachePurge : d
+
+--- CLASS[6] class_t @0x3ee2e0 ---
+   isa=0x3ee308  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_UIWindow (/System/Library/Frameworks/UIKit.framework/UIKit)]
+   ro=0x3eb0d0 flags=0x90 instanceStart=8 instanceSize=8
+   NAME = _0x8C2F4D71
+     method_list @0x3eb098 entsize=24 count=2 flags=0
+       SEL=canBecomeKeyWindow  types=B16@0:8  imp=0x8bd24
+       SEL=hitTest:withEvent:  types=@40@0:8{CGPoint=dd}16@32  imp=0x8bd2c
+
+--- CLASS[7] class_t @0x3ee358 ---
+   isa=0x3ee330  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_UIViewController (/System/Library/Frameworks/UIKit.framework/UIKit)]
+   ro=0x3eb280 flags=0x194 instanceStart=8 instanceSize=16
+   NAME = _0x3A9E5B62
+     method_list @0x3eb160 entsize=24 count=9 flags=0
+       SEL=prefersStatusBarHidden  types=B16@0:8  imp=0x8be14
+       SEL=prefersHomeIndicatorAutoHidden  types=B16@0:8  imp=0x8be1c
+       SEL=preferredScreenEdgesDeferringSystemGestures  types=Q16@0:8  imp=0x8be24
+       SEL=shouldAutorotate  types=B16@0:8  imp=0x8be2c
+       SEL=supportedInterfaceOrientations  types=Q16@0:8  imp=0x8bed8
+       SEL=preferredInterfaceOrientationForPresentation  types=q16@0:8  imp=0x8bf94
+       SEL=orientationSource  types=@16@0:8  imp=0x8c008
+       SEL=setOrientationSource:  types=v24@0:8@16  imp=0x8c028
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x8c03c
+     property_list @0x3eb268 count=1
+       @property orientationSource  attrs=T@"UIViewController",W,N,V_orientationSource
+     ivar_list count=1
+       ivar _orientationSource : @"UIViewController"
+
+--- CLASS[8] class_t @0x3ee380 ---
+   isa=0x3ee3a8  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_MTKView (/System/Library/Frameworks/MetalKit.framework/MetalKit)]
+   ro=0x3eb718 flags=0x194 instanceStart=8 instanceSize=48
+   NAME = _0x1E6B7A93
+     method_list @0x3eb3a8 entsize=24 count=23 flags=0
+       SEL=initWithFrame::::  types=@72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}48@56@64  imp=0x8c0fc
+       SEL=drawInMTKView:  types=v24@0:8@16  imp=0x8cdd4
+       SEL=mtkView:drawableSizeWillChange:  types=v40@0:8@16{CGSize=dd}24  imp=0x8ec38
+       SEL=didMoveToWindow  types=v16@0:8  imp=0x8ed00
+       SEL=_0x73C9A1E5:  types=v24@0:8@16  imp=0x8eee4
+       SEL=dealloc  types=v16@0:8  imp=0x8eeec
+       SEL=hitTest:withEvent:  types=@40@0:8{CGPoint=dd}16@32  imp=0x8f010
+       SEL=touchesBegan:withEvent:  types=v32@0:8@16@24  imp=0x8fa84
+       SEL=touchesMoved:withEvent:  types=v32@0:8@16@24  imp=0x913fc
+       SEL=touchesEnded:withEvent:  types=v32@0:8@16@24  imp=0x9149c
+       SEL=touchesCancelled:withEvent:  types=v32@0:8@16@24  imp=0x91524
+       SEL=updateIOWithTouches:event:  types=v32@0:8@16@24  imp=0x915ac
+       SEL=commandQueue  types=@16@0:8  imp=0x91838
+       SEL=setCommandQueue:  types=v24@0:8@16  imp=0x91848
+       SEL=loader  types=@16@0:8  imp=0x9185c
+       SEL=setLoader:  types=v24@0:8@16  imp=0x9186c
+       SEL=_0xE4C8719B  types=^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16@0:8  imp=0x91880
+       SEL=set_0xE4C8719B:  types=v24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16  imp=0x91890
+       SEL=_0xC8E2A541  types=@16@0:8  imp=0x918a0
+       SEL=set_0xC8E2A541:  types=v24@0:8@16  imp=0x918b0
+       SEL=_0xB1D7F3A9  types=@16@0:8  imp=0x918c4
+       SEL=set_0xB1D7F3A9:  types=v24@0:8@16  imp=0x918d4
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x918e8
+     property_list @0x3eb680 count=9
+       @property commandQueue  attrs=T@"<MTLCommandQueue>",&,N,V_commandQueue
+       @property loader  attrs=T@"MTKTextureLoader",&,N,V_loader
+       @property _0xE4C8719B  attrs=T^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}},N,V__0xE4C8719B
+       @property _0xC8E2A541  attrs=T@"_0xC8E2A541",&,N,V__0xC8E2A541
+       @property _0xB1D7F3A9  attrs=T@"_0xB1D7F3A9",&,N,V__0xB1D7F3A9
+       @property hash  attrs=TQ,R
+       @property superclass  attrs=T#,R
+       @property description  attrs=T@"NSString",R,C
+       @property debugDescription  attrs=T@"NSString",R,C
+     protocol_list count=1
+       protocol @0x3eebd0 name=MTKViewDelegate
+     ivar_list count=5
+       ivar _commandQueue : @"<MTLCommandQueue>"
+       ivar _loader : @"MTKTextureLoader"
+       ivar __0xE4C8719B : ^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}
+       ivar __0xC8E2A541 : @"_0xC8E2A541"
+       ivar __0xB1D7F3A9 : @"_0xB1D7F3A9"
+
+--- CLASS[9] class_t @0x3ee3d0 ---
+   isa=0x3ee3f8  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_UIView (/System/Library/Frameworks/UIKit.framework/UIKit)]
+   ro=0x3eb940 flags=0x194 instanceStart=8 instanceSize=24
+   NAME = _0x37C8E2B6
+     method_list @0x3eb7a8 entsize=24 count=12 flags=0
+       SEL=init  types=@16@0:8  imp=0x91b70
+       SEL=initWithFrame:  types=@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16  imp=0x91bc8
+       SEL=initWithCoder:  types=@24@0:8@16  imp=0x91c20
+       SEL=layoutSubviews  types=v16@0:8  imp=0x91c78
+       SEL=setupUI  types=v16@0:8  imp=0x91e08
+       SEL=addSubview:  types=v24@0:8@16  imp=0x91fe4
+       SEL=hitTest:withEvent:  types=@40@0:8{CGPoint=dd}16@32  imp=0x920a0
+       SEL=textField  types=@16@0:8  imp=0x921fc
+       SEL=clearView  types=@16@0:8  imp=0x9227c
+       SEL=setTextField:  types=v24@0:8@16  imp=0x922d4
+       SEL=setClearView:  types=v24@0:8@16  imp=0x922e8
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x922fc
+     property_list @0x3eb918 count=2
+       @property textField  attrs=T@"UITextField",&,N,V_textField
+       @property clearView  attrs=T@"UIView",&,N,V_clearView
+     ivar_list count=2
+       ivar _textField : @"UITextField"
+       ivar _clearView : @"UIView"
+
+--- CLASS[10] class_t @0x3ee420 ---
+   isa=0x3ee448  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ebf48 flags=0x194 instanceStart=8 instanceSize=88
+   NAME = _0x7D3B5E28
+     method_list @0x3eb9f0 entsize=24 count=34 flags=0
+       SEL=q4  types=v16@0:8  imp=0x9de64
+       SEL=q16  types=v16@0:8  imp=0x9f734
+       SEL=q5  types=v16@0:8  imp=0x9f840
+       SEL=q17  types=v16@0:8  imp=0xa67b4
+       SEL=q18:  types=v24@0:8@16  imp=0xa69ec
+       SEL=q19  types=v16@0:8  imp=0xa6b18
+       SEL=q20:  types=v24@0:8@16  imp=0xa7860
+       SEL=q21:  types=v24@0:8@16  imp=0xa865c
+       SEL=q22:  types=v24@0:8@16  imp=0xab518
+       SEL=q6:  types=v24@0:8@16  imp=0xae808
+       SEL=q7:  types=q24@0:8@16  imp=0xae828
+       SEL=q1  types=@16@0:8  imp=0xaeacc
+       SEL=setQ1:  types=v24@0:8@16  imp=0xaead4
+       SEL=q2  types=B16@0:8  imp=0xaeadc
+       SEL=setQ2:  types=v20@0:8B16  imp=0xaeae4
+       SEL=q3  types=d16@0:8  imp=0xaeaec
+       SEL=setQ3:  types=v24@0:8d16  imp=0xaeaf4
+       SEL=q8  types=@16@0:8  imp=0xaeafc
+       SEL=setQ8:  types=v24@0:8@16  imp=0xaeb04
+       SEL=q9  types=q16@0:8  imp=0xaeb10
+       SEL=setQ9:  types=v24@0:8q16  imp=0xaeb18
+       SEL=q10  types=d16@0:8  imp=0xaeb20
+       SEL=setQ10:  types=v24@0:8d16  imp=0xaeb28
+       SEL=q11  types=d16@0:8  imp=0xaeb30
+       SEL=setQ11:  types=v24@0:8d16  imp=0xaeb38
+       SEL=q12  types=@16@0:8  imp=0xaeb40
+       SEL=setQ12:  types=v24@0:8@16  imp=0xaeb48
+       SEL=q13  types=B16@0:8  imp=0xaeb54
+       SEL=setQ13:  types=v20@0:8B16  imp=0xaeb5c
+       SEL=q14  types=d16@0:8  imp=0xaeb64
+       SEL=setQ14:  types=v24@0:8d16  imp=0xaeb6c
+       SEL=q15  types=d16@0:8  imp=0xaeb74
+       SEL=setQ15:  types=v24@0:8d16  imp=0xaeb7c
+       SEL=.cxx_destruct  types=v16@0:8  imp=0xaeb84
+     property_list @0x3ebe90 count=11
+       @property q1  attrs=T@"NSString",C,N,V_q1
+       @property q2  attrs=TB,N,V_q2
+       @property q3  attrs=Td,N,V_q3
+       @property q8  attrs=T@"NSTimer",&,N,V_q8
+       @property q9  attrs=Tq,N,V_q9
+       @property q10  attrs=Td,N,V_q10
+       @property q11  attrs=Td,N,V_q11
+       @property q12  attrs=T@"NSTimer",&,N,V_q12
+       @property q13  attrs=TB,N,V_q13
+       @property q14  attrs=Td,N,V_q14
+       @property q15  attrs=Td,N,V_q15
+     ivar_list count=11
+       ivar _q2 : B
+       ivar _q13 : B
+       ivar _q1 : @"NSString"
+       ivar _q3 : d
+       ivar _q8 : @"NSTimer"
+       ivar _q9 : q
+       ivar _q10 : d
+       ivar _q11 : d
+       ivar _q12 : @"NSTimer"
+       ivar _q14 : d
+       ivar _q15 : d
+
+--- CLASS[11] class_t @0x3ee470 ---
+   isa=0x3ee498  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ec378 flags=0x194 instanceStart=8 instanceSize=56
+   NAME = _0x8B4F26C1
+     method_list @0x3ec010 entsize=24 count=22 flags=0
+       SEL=save:  types=B24@0:8^@16  imp=0xfa5d8
+       SEL=deleteItem:  types=B24@0:8^@16  imp=0xfa914
+       SEL=fetchAll:  types=@24@0:8^@16  imp=0xfaa38
+       SEL=fetch:  types=B24@0:8^@16  imp=0xfab94
+       SEL=setPasswordObject:  types=v24@0:8@16  imp=0xfad6c
+       SEL=passwordObject  types=@16@0:8  imp=0xfadc0
+       SEL=setPassword:  types=v24@0:8@16  imp=0xfae70
+       SEL=password  types=@16@0:8  imp=0xfaec4
+       SEL=query  types=@16@0:8  imp=0xfaf9c
+       SEL=account  types=@16@0:8  imp=0xfb500
+       SEL=setAccount:  types=v24@0:8@16  imp=0xfb508
+       SEL=service  types=@16@0:8  imp=0xfb510
+       SEL=setService:  types=v24@0:8@16  imp=0xfb518
+       SEL=label  types=@16@0:8  imp=0xfb520
+       SEL=setLabel:  types=v24@0:8@16  imp=0xfb528
+       SEL=passwordData  types=@16@0:8  imp=0xfb530
+       SEL=setPasswordData:  types=v24@0:8@16  imp=0xfb538
+       SEL=accessGroup  types=@16@0:8  imp=0xfb540
+       SEL=setAccessGroup:  types=v24@0:8@16  imp=0xfb548
+       SEL=synchronizationMode  types=Q16@0:8  imp=0xfb550
+       SEL=setSynchronizationMode:  types=v24@0:8Q16  imp=0xfb558
+       SEL=.cxx_destruct  types=v16@0:8  imp=0xfb560
+     property_list @0x3ec2f0 count=8
+       @property account  attrs=T@"NSString",C,N,V_account
+       @property service  attrs=T@"NSString",C,N,V_service
+       @property label  attrs=T@"NSString",C,N,V_label
+       @property accessGroup  attrs=T@"NSString",C,N,V_accessGroup
+       @property synchronizationMode  attrs=TQ,N,V_synchronizationMode
+       @property passwordData  attrs=T@"NSData",C,N,V_passwordData
+       @property passwordObject  attrs=T@"<NSCoding>",C,N
+       @property password  attrs=T@"NSString",C,N
+     ivar_list count=6
+       ivar _account : @"NSString"
+       ivar _service : @"NSString"
+       ivar _label : @"NSString"
+       ivar _passwordData : @"NSData"
+       ivar _accessGroup : @"NSString"
+       ivar _synchronizationMode : Q
+
+--- CLASS[12] class_t @0x3ee4e8 ---
+   isa=0x3ee4c0  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ec458 flags=0x90 instanceStart=8 instanceSize=8
+   NAME = _0xA6C1F894
+
+--- CLASS[13] class_t @0x3ee510 ---
+   isa=0x3ee538  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_UIView (/System/Library/Frameworks/UIKit.framework/UIKit)]
+   ro=0x3ec710 flags=0x194 instanceStart=8 instanceSize=56
+   NAME = _0xD4E9A3C7
+     method_list @0x3ec4e8 entsize=24 count=14 flags=0
+       SEL=initWithFrame::  types=@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}48  imp=0x111880
+       SEL=iconOnClick  types=v16@0:8  imp=0x111bd8
+       SEL=touchesBegan:withEvent:  types=v32@0:8@16@24  imp=0x111ff0
+       SEL=touchesMoved:withEvent:  types=v32@0:8@16@24  imp=0x1120d0
+       SEL=touchesEnded:withEvent:  types=v32@0:8@16@24  imp=0x112360
+       SEL=iconImageView  types=@16@0:8  imp=0x112400
+       SEL=setIconImageView:  types=v24@0:8@16  imp=0x112410
+       SEL=startLocation  types={CGPoint=dd}16@0:8  imp=0x112424
+       SEL=setStartLocation:  types=v32@0:8{CGPoint=dd}16  imp=0x112438
+       SEL=didMoveLocation  types={CGPoint=dd}16@0:8  imp=0x11244c
+       SEL=setDidMoveLocation:  types=v32@0:8{CGPoint=dd}16  imp=0x112460
+       SEL=_0xE4C8719B  types=^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16@0:8  imp=0x112474
+       SEL=set_0xE4C8719B:  types=v24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16  imp=0x112484
+       SEL=.cxx_destruct  types=v16@0:8  imp=0x112494
+     property_list @0x3ec6c8 count=4
+       @property iconImageView  attrs=T@"UIImageView",&,N,V_iconImageView
+       @property startLocation  attrs=T{CGPoint=dd},N,V_startLocation
+       @property didMoveLocation  attrs=T{CGPoint=dd},N,V_didMoveLocation
+       @property _0xE4C8719B  attrs=T^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}},N,V__0xE4C8719B
+     ivar_list count=4
+       ivar _iconImageView : @"UIImageView"
+       ivar __0xE4C8719B : ^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}
+       ivar _startLocation : {CGPoint="x"d"y"d}
+       ivar _didMoveLocation : {CGPoint="x"d"y"d}
+
+--- CLASS[14] class_t @0x3ee588 ---
+   isa=0x3ee560  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ec940 flags=0x90 instanceStart=8 instanceSize=8
+   NAME = _0xD5A13E79
+
+--- CLASS[15] class_t @0x3ee5d8 ---
+   isa=0x3ee5b0  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ec9d0 flags=0x90 instanceStart=8 instanceSize=8
+   NAME = YYSYNTH_DUMMY_CLASS_UIView_YYAdd
+
+--- CLASS[16] class_t @0x3ee600 ---
+   isa=0x3ee628  superclass=0x0   [superclass bind -> _OBJC_CLASS_$_NSObject (/usr/lib/libobjc.A.dylib)]
+   ro=0x3ecfa8 flags=0x90 instanceStart=8 instanceSize=16
+   NAME = _0xC8E2A541
+     method_list @0x3eced0 entsize=24 count=6 flags=0
+       SEL=initWithFrame:  types=@24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16  imp=0x1271b4
+       SEL=n0  types=v16@0:8  imp=0x127230
+       SEL=n1:  types=v24@0:8@16  imp=0x1272bc
+       SEL=n2:::  types=@40@0:8@16^v24Q32  imp=0x1272c0
+       SEL=_0xE4C8719B  types=^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16@0:8  imp=0x127404
+       SEL=set_0xE4C8719B:  types=v24@0:8^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}16  imp=0x12740c
+     property_list @0x3ecf90 count=1
+       @property _0xE4C8719B  attrs=T^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}},N,V__0xE4C8719B
+     ivar_list count=1
+       ivar __0xE4C8719B : ^{_0x91E7C4A2=Bii{_0x42D8B6F1=BBB}{_0xC5A19E73=BBBBBBBBBBBBf{ImVec2=ff}}[14B]{_0x7B3F2D86=BiifBffB}}
+
+=== CATEGORIES (__objc_catlist) ===
+  category @0x3ecdd0 name= class=0x3eca18
+  category @0x3ece48 name= class=0x0
+
+=== PROTOCOLS (__objc_protolist) ===
+  protocol @0x3ee9e0 name=NSObject
+  protocol @0x3eea40 name=NSURLSessionDelegate
+  protocol @0x3eeaa0 name=NSURLSessionTaskDelegate
+  protocol @0x3eeb00 name=NSURLSessionDataDelegate
+  protocol @0x3eeb60 name=NSCopying
+  protocol @0x3eebd0 name=MTKViewDelegate
+
+=== SELECTOR REFERENCES (__objc_selrefs) — 444 entries ===
+  0x3ecff0 -> 0x3df3e1  firstObject
+  0x3ecff8 -> 0x3e07ff  stringWithUTF8String:
+  0x3ed000 -> 0x3de185  stringByAppendingPathComponent:
+  0x3ed008 -> 0x3df198  defaultManager
+  0x3ed010 -> 0x3df3cf  fileExistsAtPath:
+  0x3ed018 -> 0x3dfc20  removeItemAtPath:error:
+  0x3ed020 -> 0x3df001  createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+  0x3ed028 -> 0x3de7fb  URLWithString:
+  0x3ed030 -> 0x3df11c  dataWithContentsOfURL:
+  0x3ed038 -> 0x3e0a90  writeToFile:options:error:
+  0x3ed040 -> 0x3dee72  contentsOfDirectoryAtPath:error:
+  0x3ed048 -> 0x3defd6  countByEnumeratingWithState:objects:count:
+  0x3ed050 -> 0x3dec93  arrayWithObjects:count:
+  0x3ed058 -> 0x3e07db  stringWithFormat:
+  0x3ed060 -> 0x3e0a51  writeToFile:atomically:
+  0x3ed068 -> 0x3ddb93  containsString:
+  0x3ed070 -> 0x3de0fa  UTF8String
+  0x3ed078 -> 0x3e0a69  writeToFile:atomically:encoding:error:
+  0x3ed080 -> 0x3de168  set_0xE4C8719B:
+  0x3ed088 -> 0x3df09e  data
+  0x3ed090 -> 0x3df045  createFileAtPath:contents:attributes:
+  0x3ed098 -> 0x3df489  init
+  0x3ed0a0 -> 0x3e0677  standardUserDefaults
+  0x3ed0a8 -> 0x3de657  setBool:forKey:
+  0x3ed0b0 -> 0x3df6bf  m4
+  0x3ed0b8 -> 0x3df586  invalidate
+  0x3ed0c0 -> 0x3de15c  _0xE4C8719B
+  0x3ed0c8 -> 0x3decc2  boolForKey:
+  0x3ed0d0 -> 0x3e079c  stringForKey:
+  0x3ed0d8 -> 0x3df680  length
+  0x3ed0e0 -> 0x3ded86  class
+  0x3ed0e8 -> 0x3e091e  tick:
+  0x3ed0f0 -> 0x3de428  displayLinkWithTarget:selector:
+  0x3ed0f8 -> 0x3e029e  setPreferredFramesPerSecond:
+  0x3ed100 -> 0x3df6d7  mainRunLoop
+  0x3ed108 -> 0x3deb94  addToRunLoop:forMode:
+  0x3ed110 -> 0x3df868  objectForKey:
+  0x3ed118 -> 0x3df577  integerForKey:
+  0x3ed120 -> 0x3e08a0  synchronize
+  0x3ed128 -> 0x3e019e  setObject:forKey:
+  0x3ed130 -> 0x3df415  generalPasteboard
+  0x3ed138 -> 0x3e06ed  string
+  0x3ed140 -> 0x3df06b  currentDevice
+  0x3ed148 -> 0x3e09d2  userInterfaceIdiom
+  0x3ed150 -> 0x3dfd2c  respondsToSelector:
+  0x3ed158 -> 0x3e07be  stringWithCharacters:length:
+  0x3ed160 -> 0x3dfba4  regularExpressionWithPattern:options:error:
+  0x3ed168 -> 0x3e070d  stringByReplacingMatchesInString:options:range:withTemplate:
+  0x3ed170 -> 0x3e07aa  stringWithCapacity:
+  0x3ed178 -> 0x3ded74  characterAtIndex:
+  0x3ed180 -> 0x3dec33  appendFormat:
+  0x3ed188 -> 0x3df5d7  isMainThread
+  0x3ed190 -> 0x3df104  dataWithContentsOfFile:
+  0x3ed198 -> 0x3ded1d  bytes
+  0x3ed1a0 -> 0x3e05ef  sharedSession
+  0x3ed1a8 -> 0x3df0b8  dataTaskWithURL:completionHandler:
+  0x3ed1b0 -> 0x3dfd40  resume
+  0x3ed1b8 -> 0x3dfaf4  propertyForKey:inRequest:
+  0x3ed1c0 -> 0x3dda51  URL
+  0x3ed1c8 -> 0x3dde83  request
+  0x3ed1d0 -> 0x3df743  mutableCopy
+  0x3ed1d8 -> 0x3de4fc  numberWithBool:
+  0x3ed1e0 -> 0x3e02bb  setProperty:forKey:inRequest:
+  0x3ed1e8 -> 0x3df1a7  defaultSessionConfiguration
+  0x3ed1f0 -> 0x3e02d9  setProtocolClasses:
+  0x3ed1f8 -> 0x3dfdf0  sessionWithConfiguration:delegate:delegateQueue:
+  0x3ed200 -> 0x3e02f4  setQ1:
+  0x3ed208 -> 0x3df0a3  dataTaskWithRequest:
+  0x3ed210 -> 0x3e02ed  setQ0:
+  0x3ed218 -> 0x3dfb39  q0
+  0x3ed220 -> 0x3ded4a  cancel
+  0x3ed228 -> 0x3deda1  client
+  0x3ed230 -> 0x3dde1d  URLProtocol:didReceiveResponse:cacheStoragePolicy:
+  0x3ed238 -> 0x3dfb3c  q1
+  0x3ed240 -> 0x3dec27  appendData:
+  0x3ed248 -> 0x3dddfb  URLProtocol:didFailWithError:
+  0x3ed250 -> 0x3de5a2  URLProtocol:didLoadData:
+  0x3ed258 -> 0x3de5bf  URLProtocolDidFinishLoading:
+  0x3ed260 -> 0x3dfb95  registerClass:
+  0x3ed268 -> 0x3dea44  absoluteString
+  0x3ed270 -> 0x3df4e1  initWithData:encoding:
+  0x3ed278 -> 0x3dfb86  rangeOfString:
+  0x3ed280 -> 0x3df5ae  isEqualToString:
+  0x3ed288 -> 0x3df0db  dataUsingEncoding:
+  0x3ed290 -> 0x3de521  protocolClasses
+  0x3ed298 -> 0x3de372  containsObject:
+  0x3ed2a0 -> 0x3dec82  arrayWithObject:
+  0x3ed2a8 -> 0x3deaff  addObjectsFromArray:
+  0x3ed2b0 -> 0x3df519  initWithRenderPassDescriptor:
+  0x3ed2b8 -> 0x3e008f  setFramebufferDescriptor:
+  0x3ed2c0 -> 0x3dfc7e  renderDrawData:commandBuffer:commandEncoder:
+  0x3ed2c8 -> 0x3df70b  makeFontTextureWithDevice:
+  0x3ed2d0 -> 0x3df3ed  fontTexture
+  0x3ed2d8 -> 0x3de6cf  setFontTexture:
+  0x3ed2e0 -> 0x3df6ee  makeDeviceObjectsWithDevice:
+  0x3ed2e8 -> 0x3df34f  emptyRenderPipelineStateCache
+  0x3ed2f0 -> 0x3df155  date
+  0x3ed2f8 -> 0x3e0924  timeIntervalSince1970
+  0x3ed300 -> 0x3deda8  colorAttachments
+  0x3ed308 -> 0x3df84e  objectAtIndexedSubscript:
+  0x3ed310 -> 0x3de1b2  texture
+  0x3ed318 -> 0x3dfd73  sampleCount
+  0x3ed320 -> 0x3df9ae  pixelFormat
+  0x3ed328 -> 0x3ddbf0  depthAttachment
+  0x3ed330 -> 0x3e06bc  stencilAttachment
+  0x3ed338 -> 0x3debf4  allocWithZone:
+  0x3ed340 -> 0x3de7eb  setSampleCount:
+  0x3ed348 -> 0x3dedb9  colorPixelFormat
+  0x3ed350 -> 0x3dff20  setColorPixelFormat:
+  0x3ed358 -> 0x3df219  depthPixelFormat
+  0x3ed360 -> 0x3dffb8  setDepthPixelFormat:
+  0x3ed368 -> 0x3e06ce  stencilPixelFormat
+  0x3ed370 -> 0x3e0472  setStencilPixelFormat:
+  0x3ed378 -> 0x3df5c8  isKindOfClass:
+  0x3ed380 -> 0x3df275  dictionary
+  0x3ed388 -> 0x3dec7c  array
+  0x3ed390 -> 0x3dffe3  setDepthWriteEnabled:
+  0x3ed398 -> 0x3dff9f  setDepthCompareFunction:
+  0x3ed3a0 -> 0x3df77a  newDepthStencilStateWithDescriptor:
+  0x3ed3a8 -> 0x3dffcd  setDepthStencilState:
+  0x3ed3b0 -> 0x3e08e3  texture2DDescriptorWithPixelFormat:width:height:mipmapped:
+  0x3ed3b8 -> 0x3e04d8  setUsage:
+  0x3ed3c0 -> 0x3de105  setStorageMode:
+  0x3ed3c8 -> 0x3df803  newTextureWithDescriptor:
+  0x3ed3d0 -> 0x3dfcfb  replaceRegion:mipmapLevel:withBytes:bytesPerRow:
+  0x3ed3d8 -> 0x3df629  lastBufferCachePurge
+  0x3ed3e0 -> 0x3ded02  bufferCache
+  0x3ed3e8 -> 0x3df649  lastReuseTime
+  0x3ed3f0 -> 0x3deaf4  addObject:
+  0x3ed3f8 -> 0x3ddef8  setBufferCache:
+  0x3ed400 -> 0x3e00e5  setLastBufferCachePurge:
+  0x3ed408 -> 0x3decfb  buffer
+  0x3ed410 -> 0x3dfc38  removeObject:
+  0x3ed418 -> 0x3e00fe  setLastReuseTime:
+  0x3ed420 -> 0x3df75d  newBufferWithLength:options:
+  0x3ed428 -> 0x3ddc5f  initWithBuffer:
+  0x3ed430 -> 0x3dfcbc  renderPipelineStateCache
+  0x3ed438 -> 0x3df3ff  framebufferDescriptor
+  0x3ed440 -> 0x3df876  objectForKeyedSubscript:
+  0x3ed448 -> 0x3de9b6  _renderPipelineStateForFramebufferDescriptor:device:
+  0x3ed450 -> 0x3e01b0  setObject:forKeyedSubscript:
+  0x3ed458 -> 0x3df7b3  newLibraryWithSource:options:error:
+  0x3ed460 -> 0x3df79e  newFunctionWithName:
+  0x3ed468 -> 0x3e09e5  vertexDescriptor
+  0x3ed470 -> 0x3decab  attributes
+  0x3ed478 -> 0x3e01cd  setOffset:
+  0x3ed480 -> 0x3e0049  setFormat:
+  0x3ed488 -> 0x3de68d  setBufferIndex:
+  0x3ed490 -> 0x3ddca2  layouts
+  0x3ed498 -> 0x3e049a  setStepRate:
+  0x3ed4a0 -> 0x3e0489  setStepFunction:
+  0x3ed4a8 -> 0x3e04a7  setStride:
+  0x3ed4b0 -> 0x3e0550  setVertexFunction:
+  0x3ed4b8 -> 0x3e0054  setFragmentFunction:
+  0x3ed4c0 -> 0x3e053b  setVertexDescriptor:
+  0x3ed4c8 -> 0x3de70b  setPixelFormat:
+  0x3ed4d0 -> 0x3dfeb6  setBlendingEnabled:
+  0x3ed4d8 -> 0x3e0363  setRgbBlendOperation:
+  0x3ed4e0 -> 0x3e0426  setSourceRGBBlendFactor:
+  0x3ed4e8 -> 0x3dfff9  setDestinationRGBBlendFactor:
+  0x3ed4f0 -> 0x3dfe43  setAlphaBlendOperation:
+  0x3ed4f8 -> 0x3e040b  setSourceAlphaBlendFactor:
+  0x3ed500 -> 0x3ddf22  setDestinationAlphaBlendFactor:
+  0x3ed508 -> 0x3dff80  setDepthAttachmentPixelFormat:
+  0x3ed510 -> 0x3e0451  setStencilAttachmentPixelFormat:
+  0x3ed518 -> 0x3df7d7  newRenderPipelineStateWithDescriptor:error:
+  0x3ed520 -> 0x3dfbe9  removeAllObjects
+  0x3ed528 -> 0x3dff57  setCullMode:
+  0x3ed530 -> 0x3df22a  depthStencilState
+  0x3ed538 -> 0x3e0563  setViewport:
+  0x3ed540 -> 0x3e051c  setVertexBytes:length:atIndex:
+  0x3ed548 -> 0x3e032e  setRenderPipelineState:
+  0x3ed550 -> 0x3de120  setVertexBuffer:offset:atIndex:
+  0x3ed558 -> 0x3e04fd  setVertexBufferOffset:atIndex:
+  0x3ed560 -> 0x3df26e  device
+  0x3ed568 -> 0x3dfcd5  renderPipelineStateForFrameAndDevice:
+  0x3ed570 -> 0x3df23c  dequeueReusableBufferOfLength:device:
+  0x3ed578 -> 0x3e057a  setupRenderState:commandBuffer:commandEncoder:renderPipelineState:vertexBuffer:vertexBufferOffset:
+  0x3ed580 -> 0x3dee69  contents
+  0x3ed588 -> 0x3de0ea  setScissorRect:
+  0x3ed590 -> 0x3e0069  setFragmentTexture:atIndex:
+  0x3ed598 -> 0x3df2cc  drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:
+  0x3ed5a0 -> 0x3df379  enqueueReusableBuffer:
+  0x3ed5a8 -> 0x3deac9  addCompletedHandler:
+  0x3ed5b0 -> 0x3df43e  hitTest:withEvent:
+  0x3ed5b8 -> 0x3dfd60  rootViewController
+  0x3ed5c0 -> 0x3e09f6  view
+  0x3ed5c8 -> 0x3df8b2  orientationSource
+  0x3ed5d0 -> 0x3e060c  shouldAutorotate
+  0x3ed5d8 -> 0x3e086d  supportedInterfaceOrientations
+  0x3ed5e0 -> 0x3e05dd  sharedApplication
+  0x3ed5e8 -> 0x3e06a7  statusBarOrientation
+  0x3ed5f0 -> 0x3df4f8  initWithFrame:
+  0x3ed5f8 -> 0x3de850  set_0xC8E2A541:
+  0x3ed600 -> 0x3de14c  set_0xB1D7F3A9:
+  0x3ed608 -> 0x3df619  keyWindow
+  0x3ed610 -> 0x3de1e9  windows
+  0x3ed618 -> 0x3e0a45  windowScene
+  0x3ed620 -> 0x3df562  initWithWindowScene:
+  0x3ed628 -> 0x3de397  coordinateSpace
+  0x3ed630 -> 0x3decdf  bounds
+  0x3ed638 -> 0x3e0085  setFrame:
+  0x3ed640 -> 0x3de4f3  new
+  0x3ed648 -> 0x3e01d8  setOrientationSource:
+  0x3ed650 -> 0x3dfe8d  setAutoresizingMask:
+  0x3ed658 -> 0x3ded8c  clearColor
+  0x3ed660 -> 0x3dfea2  setBackgroundColor:
+  0x3ed668 -> 0x3e0154  setMultipleTouchEnabled:
+  0x3ed670 -> 0x3e0036  setExclusiveTouch:
+  0x3ed678 -> 0x3e0383  setRootViewController:
+  0x3ed680 -> 0x3de834  setWindowLevel:
+  0x3ed688 -> 0x3e04e2  setUserInteractionEnabled:
+  0x3ed690 -> 0x3e017c  setNeedsStatusBarAppearanceUpdate
+  0x3ed698 -> 0x3deb62  addSubview:
+  0x3ed6a0 -> 0x3e00b4  setHidden:
+  0x3ed6a8 -> 0x3df18a  defaultCenter
+  0x3ed6b0 -> 0x3de827  _0x73C9A1E5:
+  0x3ed6b8 -> 0x3deb14  addObserver:selector:name:object:
+  0x3ed6c0 -> 0x3e0017  setDevice:
+  0x3ed6c8 -> 0x3dff73  setDelegate:
+  0x3ed6d0 -> 0x3ddd56  newCommandQueue
+  0x3ed6d8 -> 0x3dff35  setCommandQueue:
+  0x3ed6e0 -> 0x3de46a  initWithDevice:
+  0x3ed6e8 -> 0x3e0137  setLoader:
+  0x3ed6f0 -> 0x3df342  drawableSize
+  0x3ed6f8 -> 0x3dee56  contentScaleFactor
+  0x3ed700 -> 0x3de844  _0xC8E2A541
+  0x3ed708 -> 0x3ddcdc  n1:
+  0x3ed710 -> 0x3de140  _0xB1D7F3A9
+  0x3ed718 -> 0x3ddcbd  m0:
+  0x3ed720 -> 0x3df3f9  frame
+  0x3ed728 -> 0x3e016d  setNeedsLayout
+  0x3ed730 -> 0x3df65d  layoutIfNeeded
+  0x3ed738 -> 0x3dec4f  applicationState
+  0x3ed740 -> 0x3df591  isDescendantOfView:
+  0x3ed748 -> 0x3e0863  superview
+  0x3ed750 -> 0x3df6e3  mainScreen
+  0x3ed758 -> 0x3df726  maximumFramesPerSecond
+  0x3ed760 -> 0x3df9e5  preferredFramesPerSecond
+  0x3ed768 -> 0x3dff03  setClearColor:
+  0x3ed770 -> 0x3dee25  commandQueue
+  0x3ed778 -> 0x3dee17  commandBuffer
+  0x3ed780 -> 0x3df079  currentRenderPassDescriptor
+  0x3ed788 -> 0x3df6b6  m1
+  0x3ed790 -> 0x3df74f  n0
+  0x3ed798 -> 0x3df6b9  m2
+  0x3ed7a0 -> 0x3df6bc  m3
+  0x3ed7a8 -> 0x3dfc5a  renderCommandEncoderWithDescriptor:
+  0x3ed7b0 -> 0x3dddad  pushDebugGroup:
+  0x3ed7b8 -> 0x3df9ba  popDebugGroup
+  0x3ed7c0 -> 0x3df36d  endEncoding
+  0x3ed7c8 -> 0x3ddbc5  currentDrawable
+  0x3ed7d0 -> 0x3dfaa0  presentDrawable:
+  0x3ed7d8 -> 0x3dee32  commit
+  0x3ed7e0 -> 0x3ddc2d  didMoveToWindow
+  0x3ed7e8 -> 0x3e0a3e  window
+  0x3ed7f0 -> 0x3de5dc  removeObserver:
+  0x3ed7f8 -> 0x3de3cb  dealloc
+  0x3ed800 -> 0x3e09b7  updateIOWithTouches:event:
+  0x3ed808 -> 0x3dec09  anyObject
+  0x3ed810 -> 0x3de4a4  locationInView:
+  0x3ed818 -> 0x3de1c7  touchesForView:
+  0x3ed820 -> 0x3df9a8  phase
+  0x3ed828 -> 0x3e084f  subviews
+  0x3ed830 -> 0x3defbd  copy
+  0x3ed838 -> 0x3dece6  bringSubviewToFront:
+  0x3ed840 -> 0x3de86d  setupUI
+  0x3ed848 -> 0x3df4d2  initWithCoder:
+  0x3ed850 -> 0x3df66c  layoutSubviews
+  0x3ed858 -> 0x3e08ce  textField
+  0x3ed860 -> 0x3ded97  clearView
+  0x3ed868 -> 0x3e039a  setSecureTextEntry:
+  0x3ed870 -> 0x3df48e  initWithBase64EncodedString:options:
+  0x3ed878 -> 0x3e074a  stringByReplacingOccurrencesOfString:withString:
+  0x3ed880 -> 0x3e06f4  stringByAppendingString:
+  0x3ed888 -> 0x3dec41  appendString:
+  0x3ed890 -> 0x3dfb44  q2
+  0x3ed898 -> 0x3e02fb  setQ2:
+  0x3ed8a0 -> 0x3e0310  setQ9:
+  0x3ed8a8 -> 0x3de74c  setQ10:
+  0x3ed8b0 -> 0x3de05f  setQ13:
+  0x3ed8b8 -> 0x3de7ba  setQ14:
+  0x3ed8c0 -> 0x3de0b0  setQ15:
+  0x3ed8c8 -> 0x3dfb3f  q18:
+  0x3ed8d0 -> 0x3de556  q14
+  0x3ed8d8 -> 0x3de57c  q16
+  0x3ed8e0 -> 0x3dfb5c  q5
+  0x3ed8e8 -> 0x3dddf7  q17
+  0x3ed8f0 -> 0x3dfdaa  scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
+  0x3ed8f8 -> 0x3de777  setQ12:
+  0x3ed900 -> 0x3dfb5f  q8
+  0x3ed908 -> 0x3e0309  setQ8:
+  0x3ed910 -> 0x3dddd6  q13
+  0x3ed918 -> 0x3de018  setQ11:
+  0x3ed920 -> 0x3dfb47  q20:
+  0x3ed928 -> 0x3df298  dictionaryWithObjects:forKeys:count:
+  0x3ed930 -> 0x3dfb4c  q21:
+  0x3ed938 -> 0x3de53c  q10
+  0x3ed940 -> 0x3dfb51  q22:
+  0x3ed948 -> 0x3e0302  setQ3:
+  0x3ed950 -> 0x3ddde4  q15
+  0x3ed958 -> 0x3de54b  q12
+  0x3ed960 -> 0x3de59e  q19
+  0x3ed968 -> 0x3dfc46  removeObjectForKey:
+  0x3ed970 -> 0x3e05fd  sharedURLCache
+  0x3ed978 -> 0x3dfbd0  removeAllCachedResponses
+  0x3ed980 -> 0x3debaa  alertControllerWithTitle:message:preferredStyle:
+  0x3ed988 -> 0x3dea9f  actionWithTitle:style:handler:
+  0x3ed990 -> 0x3deabe  addAction:
+  0x3ed998 -> 0x3dfab1  presentViewController:animated:completion:
+  0x3ed9a0 -> 0x3decce  boolValue
+  0x3ed9a8 -> 0x3df4b3  initWithBytes:length:encoding:
+  0x3ed9b0 -> 0x3dfd85  scale
+  0x3ed9b8 -> 0x3df73d  model
+  0x3ed9c0 -> 0x3e08bb  systemVersion
+  0x3ed9c8 -> 0x3df758  name
+  0x3ed9d0 -> 0x3df907  passwordForService:account:
+  0x3ed9d8 -> 0x3dfe21  setAccessibilityType:
+  0x3ed9e0 -> 0x3ddf68  setPassword:forService:account:
+  0x3ed9e8 -> 0x3df83a  numberWithLongLong:
+  0x3ed9f0 -> 0x3de81a  UUID
+  0x3ed9f8 -> 0x3de115  UUIDString
+  0x3eda00 -> 0x3df54e  initWithUTF8String:
+  0x3eda08 -> 0x3df82b  numberWithInt:
+  0x3eda10 -> 0x3ddb29  allKeys
+  0x3eda18 -> 0x3dee39  compare:
+  0x3eda20 -> 0x3e065d  sortedArrayUsingSelector:
+  0x3eda28 -> 0x3df133  dataWithJSONObject:options:error:
+  0x3eda30 -> 0x3df0ee  dataWithBytes:length:
+  0x3eda38 -> 0x3e07ed  stringWithString:
+  0x3eda40 -> 0x3de323  base64EncodedStringWithOptions:
+  0x3eda48 -> 0x3dec13  appendBytes:length:
+  0x3eda50 -> 0x3dfadc  presentedViewController
+  0x3eda58 -> 0x3df88f  openURL:options:completionHandler:
+  0x3eda60 -> 0x3dfb6b  rangeOfData:options:range:
+  0x3eda68 -> 0x3e0815  subdataWithRange:
+  0x3eda70 -> 0x3dfb0e  propertyListWithData:options:format:error:
+  0x3eda78 -> 0x3df6c2  mainBundle
+  0x3eda80 -> 0x3df47a  infoDictionary
+  0x3eda88 -> 0x3defd0  count
+  0x3eda90 -> 0x3df1cf  deletePasswordForService:account:
+  0x3eda98 -> 0x3df15a  dateWithTimeIntervalSince1970:
+  0x3edaa0 -> 0x3dff64  setDateFormat:
+  0x3edaa8 -> 0x3de882  stringFromDate:
+  0x3edab0 -> 0x3dfb59  q4
+  0x3edab8 -> 0x3df9c8  postNotificationName:object:
+  0x3edac0 -> 0x3ddfbf  setPlaceholder:
+  0x3edac8 -> 0x3dfe5b  setAutocapitalizationType:
+  0x3edad0 -> 0x3dfe76  setAutocorrectionType:
+  0x3edad8 -> 0x3deb6e  addTextFieldWithConfigurationHandler:
+  0x3edae0 -> 0x3e08d8  textFields
+  0x3edae8 -> 0x3e08c9  text
+  0x3edaf0 -> 0x3de615  service
+  0x3edaf8 -> 0x3de300  account
+  0x3edb00 -> 0x3df8d4  passwordData
+  0x3edb08 -> 0x3df390  errorWithCode:
+  0x3edb10 -> 0x3dfb65  query
+  0x3edb18 -> 0x3dea5f  accessibilityType
+  0x3edb20 -> 0x3df623  label
+  0x3edb28 -> 0x3e022c  setPasswordData:
+  0x3edb30 -> 0x3dec60  archivedDataWithRootObject:
+  0x3edb38 -> 0x3e099e  unarchiveObjectWithData:
+  0x3edb40 -> 0x3df280  dictionaryWithCapacity:
+  0x3edb48 -> 0x3dea53  accessGroup
+  0x3edb50 -> 0x3df5fe  isSynchronizationAvailable
+  0x3edb58 -> 0x3e088c  synchronizationMode
+  0x3edb60 -> 0x3ddb4a  bundleForClass:
+  0x3edb68 -> 0x3de580  URLForResource:withExtension:
+  0x3edb70 -> 0x3ded0e  bundleWithURL:
+  0x3edb78 -> 0x3df693  localizedStringForKey:value:table:
+  0x3edb80 -> 0x3df39f  errorWithDomain:code:userInfo:
+  0x3edb88 -> 0x3e08ac  systemTimeZone
+  0x3edb90 -> 0x3dfa2b  preferredLanguages
+  0x3edb98 -> 0x3df095  d0
+  0x3edba0 -> 0x3df657  layer
+  0x3edba8 -> 0x3dff46  setCornerRadius:
+  0x3edbb0 -> 0x3e0142  setMasksToBounds:
+  0x3edbb8 -> 0x3e0a38  width
+  0x3edbc0 -> 0x3df437  height
+  0x3edbc8 -> 0x3e00bf  setIconImageView:
+  0x3edbd0 -> 0x3df46b  imageWithData:
+  0x3edbd8 -> 0x3df451  iconImageView
+  0x3edbe0 -> 0x3e00d1  setImage:
+  0x3edbe8 -> 0x3df45f  iconOnClick
+  0x3edbf0 -> 0x3df537  initWithTarget:action:
+  0x3edbf8 -> 0x3deade  addGestureRecognizer:
+  0x3edc00 -> 0x3ded6d  center
+  0x3edc08 -> 0x3dfee0  setCenter:
+  0x3edc10 -> 0x3df67b  left
+  0x3edc18 -> 0x3decd8  bottom
+  0x3edc20 -> 0x3e0022  setDidMoveLocation:
+  0x3edc28 -> 0x3df923  passwordForService:account:error:
+  0x3edc30 -> 0x3e03ae  setService:
+  0x3edc38 -> 0x3dfe37  setAccount:
+  0x3edc40 -> 0x3df3be  fetch:
+  0x3edc48 -> 0x3df8cb  password
+  0x3edc50 -> 0x3df8e1  passwordDataForService:account:error:
+  0x3edc58 -> 0x3df1f1  deletePasswordForService:account:error:
+  0x3edc60 -> 0x3df1c3  deleteItem:
+  0x3edc68 -> 0x3e0206  setPassword:forService:account:error:
+  0x3edc70 -> 0x3e01f9  setPassword:
+  0x3edc78 -> 0x3dfd7f  save:
+  0x3edc80 -> 0x3e0261  setPasswordData:forService:account:error:
+  0x3edc88 -> 0x3debe7  allAccounts:
+  0x3edc90 -> 0x3dea85  accountsForService:error:
+  0x3edc98 -> 0x3df3c5  fetchAll:
+  0x3edca0 -> 0x3df5f5  isOpaque
+  0x3edca8 -> 0x3dfcab  renderInContext:
+  0x3edcb0 -> 0x3df316  drawViewHierarchyInRect:afterScreenUpdates:
+  0x3edcb8 -> 0x3e0622  snapshotImage
+  0x3edcc0 -> 0x3dda0b  CGColor
+  0x3edcc8 -> 0x3de80a  setShadowColor:
+  0x3edcd0 -> 0x3e03ba  setShadowOffset:
+  0x3edcd8 -> 0x3e03dd  setShadowRadius:
+  0x3edce0 -> 0x3e03cb  setShadowOpacity:
+  0x3edce8 -> 0x3e03ee  setShouldRasterize:
+  0x3edcf0 -> 0x3e0317  setRasterizationScale:
+  0x3edcf8 -> 0x3df63e  lastObject
+  0x3edd00 -> 0x3dfc0c  removeFromSuperview
+  0x3edd08 -> 0x3df81d  nextResponder
+  0x3edd10 -> 0x3df5bf  isHidden
+  0x3edd18 -> 0x3dec03  alpha
+  0x3edd20 -> 0x3def14  convertPoint:toWindow:
+  0x3edd28 -> 0x3deee2  convertPoint:toView:
+  0x3edd30 -> 0x3deec9  convertPoint:fromWindow:
+  0x3edd38 -> 0x3dee93  convertPoint:fromView:
+  0x3edd40 -> 0x3defa7  convertRect:toWindow:
+  0x3edd48 -> 0x3def77  convertRect:toView:
+  0x3edd50 -> 0x3def5f  convertRect:fromWindow:
+  0x3edd58 -> 0x3def2b  convertRect:fromView:
+  0x3edd60 -> 0x3df6cd  mainQueue
+  0x3edd68 -> 0x3deb36  addObserverForName:object:queue:usingBlock:
+  0x3edd70 -> 0x3df507  initWithFrame::::
+  0x3edd78 -> 0x3ddc7a  initWithFrame::
+  0x3edd80 -> 0x3e0a17  whitespaceAndNewlineCharacterSet
+  0x3edd88 -> 0x3e077b  stringByTrimmingCharactersInSet:
+  0x3edd90 -> 0x3de8aa  uppercaseString
+  0x3edd98 -> 0x3df427  hasPrefix:
+  0x3edda0 -> 0x3e0827  substringFromIndex:
+  0x3edda8 -> 0x3e083b  substringWithRange:
+  0x3eddb0 -> 0x3dfd97  scannerWithString:
+  0x3eddb8 -> 0x3dfd8b  scanHexInt:
+  0x3eddc0 -> 0x3dedf8  colorWithRed:green:blue:alpha:
+  0x3eddc8 -> 0x3dedde  colorWithHexString:alpha:
+
+=== CLASS REFERENCES (__objc_classrefs) — 70 entries ===
+  0x3eddd0 -> 0x0  <bind _OBJC_CLASS_$_NSString (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3eddd8 -> 0x0  <bind _OBJC_CLASS_$_NSFileManager (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edde0 -> 0x0  <bind _OBJC_CLASS_$_NSURL (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3edde8 -> 0x0  <bind _OBJC_CLASS_$_NSData (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3eddf0 -> 0x0  <bind _OBJC_CLASS_$_NSArray (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3eddf8 -> 0x0  <bind _OBJC_CLASS_$_NSUserDefaults (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3ede00 -> 0x0  <bind _OBJC_CLASS_$_CADisplayLink (/System/Library/Frameworks/QuartzCore.framework/QuartzCore)>
+  0x3ede08 -> 0x3ee128  
+  0x3ede10 -> 0x0  <bind _OBJC_CLASS_$_NSRunLoop (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3ede18 -> 0x0  <bind _OBJC_CLASS_$_UIPasteboard (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3ede20 -> 0x0  <bind _OBJC_CLASS_$_UIDevice (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3ede28 -> 0x0  <bind _OBJC_CLASS_$_NSRegularExpression (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3ede30 -> 0x0  <bind _OBJC_CLASS_$_NSMutableString (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3ede38 -> 0x0  <bind _OBJC_CLASS_$_NSThread (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3ede40 -> 0x0  <bind _OBJC_CLASS_$_NSURLSession (/System/Library/Frameworks/CFNetwork.framework/CFNetwork)>
+  0x3ede48 -> 0x0  <bind _OBJC_CLASS_$_NSURLProtocol (/System/Library/Frameworks/CFNetwork.framework/CFNetwork)>
+  0x3ede50 -> 0x0  <bind _OBJC_CLASS_$_NSNumber (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3ede58 -> 0x0  <bind _OBJC_CLASS_$_NSURLSessionConfiguration (/System/Library/Frameworks/CFNetwork.framework/CFNetwork)>
+  0x3ede60 -> 0x0  <bind _OBJC_CLASS_$_NSMutableData (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3ede68 -> 0x3ee1c8  ��>
+  0x3ede70 -> 0x0  <bind _OBJC_CLASS_$_NSMutableArray (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3ede78 -> 0x3ee1f0  ��>
+  0x3ede80 -> 0x3ee218  ��>
+  0x3ede88 -> 0x0  <bind _OBJC_CLASS_$_NSDate (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3ede90 -> 0x0  <bind _OBJC_CLASS_$_NSMutableDictionary (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3ede98 -> 0x0  <bind _OBJC_CLASS_$_MTLDepthStencilDescriptor (/System/Library/Frameworks/Metal.framework/Metal)>
+  0x3edea0 -> 0x0  <bind _OBJC_CLASS_$_MTLTextureDescriptor (/System/Library/Frameworks/Metal.framework/Metal)>
+  0x3edea8 -> 0x3ee240  h�>
+  0x3edeb0 -> 0x0  <bind _OBJC_CLASS_$_MTLVertexDescriptor (/System/Library/Frameworks/Metal.framework/Metal)>
+  0x3edeb8 -> 0x0  <bind _OBJC_CLASS_$_MTLRenderPipelineDescriptor (/System/Library/Frameworks/Metal.framework/Metal)>
+  0x3edec0 -> 0x0  <bind _OBJC_CLASS_$_UIApplication (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edec8 -> 0x3ee2e0  �>
+  0x3eded0 -> 0x3ee358  0�>
+  0x3eded8 -> 0x0  <bind _OBJC_CLASS_$_UIColor (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edee0 -> 0x3ee3d0  ��>
+  0x3edee8 -> 0x0  <bind _OBJC_CLASS_$_NSNotificationCenter (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edef0 -> 0x0  <bind _OBJC_CLASS_$_MTKTextureLoader (/System/Library/Frameworks/MetalKit.framework/MetalKit)>
+  0x3edef8 -> 0x0  <bind _OBJC_CLASS_$_UIScreen (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edf00 -> 0x3ee510  8�>
+  0x3edf08 -> 0x0  <bind _OBJC_CLASS_$_UITextField (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edf10 -> 0x0  <bind _OBJC_CLASS_$_UIView (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edf18 -> 0x3ee420  H�>
+  0x3edf20 -> 0x0  <bind _OBJC_CLASS_$_NSTimer (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3edf28 -> 0x0  <bind _OBJC_CLASS_$_NSDictionary (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3edf30 -> 0x0  <bind _OBJC_CLASS_$_NSURLCache (/System/Library/Frameworks/CFNetwork.framework/CFNetwork)>
+  0x3edf38 -> 0x0  <bind _OBJC_CLASS_$_UIAlertController (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edf40 -> 0x0  <bind _OBJC_CLASS_$_UIAlertAction (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edf48 -> 0x3ee588  `�>
+  0x3edf50 -> 0x0  <bind _OBJC_CLASS_$_NSUUID (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf58 -> 0x0  <bind _OBJC_CLASS_$_NSJSONSerialization (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf60 -> 0x0  <bind _OBJC_CLASS_$_NSPropertyListSerialization (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf68 -> 0x0  <bind _OBJC_CLASS_$_NSBundle (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf70 -> 0x0  <bind _OBJC_CLASS_$_NSDateFormatter (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf78 -> 0x0  <bind _OBJC_CLASS_$_NSKeyedArchiver (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf80 -> 0x0  <bind _OBJC_CLASS_$_NSKeyedUnarchiver (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf88 -> 0x3ee470  ��>
+  0x3edf90 -> 0x0  <bind _OBJC_CLASS_$_NSError (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edf98 -> 0x0  <bind _OBJC_CLASS_$_NSTimeZone (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3edfa0 -> 0x0  <bind _OBJC_CLASS_$_NSLocale (/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation)>
+  0x3edfa8 -> 0x0  <bind _OBJC_CLASS_$_UIImageView (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edfb0 -> 0x0  <bind _OBJC_CLASS_$_UIImage (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edfb8 -> 0x0  <bind _OBJC_CLASS_$_UITapGestureRecognizer (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edfc0 -> 0x0  <bind _OBJC_CLASS_$_UIViewController (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edfc8 -> 0x0  <bind _OBJC_CLASS_$_UIWindow (/System/Library/Frameworks/UIKit.framework/UIKit)>
+  0x3edfd0 -> 0x0  <bind _OBJC_CLASS_$_NSOperationQueue (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edfd8 -> 0x3ee600  (�>
+  0x3edfe0 -> 0x3ee150  x�>
+  0x3edfe8 -> 0x3ee380  ��>
+  0x3edff0 -> 0x0  <bind _OBJC_CLASS_$_NSCharacterSet (/System/Library/Frameworks/Foundation.framework/Foundation)>
+  0x3edff8 -> 0x0  <bind _OBJC_CLASS_$_NSScanner (/System/Library/Frameworks/Foundation.framework/Foundation)>
+
+=== SUPER REFERENCES (__objc_superrefs) — 9 entries ===
+  0x3ee000 -> 0x3ee150  x�>
+  0x3ee008 -> 0x3ee240  h�>
+  0x3ee010 -> 0x3ee218  ��>
+  0x3ee018 -> 0x3ee1f0  ��>
+  0x3ee020 -> 0x3ee2e0  �>
+  0x3ee028 -> 0x3ee380  ��>
+  0x3ee030 -> 0x3ee3d0  ��>
+  0x3ee038 -> 0x3ee510  8�>
+  0x3ee040 -> 0x3ee600  (�>

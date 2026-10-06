@@ -1,0 +1,527 @@
+
+====================================================================================================
+### GHIDRA PROGRAM INFORMATION & OPTIONS
+====================================================================================================
+=== Program Information ===
+Name          : target_ace.dylib
+Executable Path: /home/user/tools/work/target_ace.dylib
+Language      : AARCH64:LE:64:AppleSilicon
+Compiler      : default
+Image Base    : 00000000
+Min Address   : 00000000
+Max Address   : 0041b3ff
+Default Pointer Size: 8
+Address Factory Spaces:
+  const type=0 size=64
+  unique type=3 size=32
+  ram type=1 size=64
+  register type=4 size=32
+  OTHER type=7 size=64
+  EXTERNAL type=10 size=32
+  stack type=5 size=64
+  HASH type=14 size=60
+
+=== Program Options / Metadata ===
+[Decompiler]
+  Prototype Evaluation = __cdecl
+[Specification Extensions]
+  FormatVersion = 1
+  VersionCounter = 8
+  callfixup____chkstk_darwin_fixup = <callfixup name="___chkstk_darwin_fixup">
+    <target name="___chkstk_darwin"/>
+    <pcode>
+        <body><![CDATA[
+            x0 = x0;
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  callfixup__objc_getProperty_fixup = <callfixup name="_objc_getProperty_fixup">
+    <target name="_objc_getProperty"/>
+    <pcode>
+        <body><![CDATA[
+            x0 = *(x0 + x2);
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  callfixup__objc_load_fixup = <callfixup name="_objc_load_fixup">
+    <target name="_objc_loadWeak"/>
+    <target name="_objc_loadWeakRetained"/>
+    <pcode>
+        <body><![CDATA[
+            x0 = *x0;
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  callfixup__objc_release_fixup = <callfixup name="_objc_release_fixup">
+    <target name="_objc_release"/>
+    <target name="_objc_release_x0"/>
+    <target name="_objc_release_x1"/>
+    <target name="_objc_release_x2"/>
+    <target name="_objc_release_x3"/>
+    <target name="_objc_release_x4"/>
+    <target name="_objc_release_x5"/>
+    <target name="_objc_release_x6"/>
+    <target name="_objc_release_x7"/>
+    <target name="_objc_release_x8"/>
+    <target name="_objc_release_x9"/>
+    <target name="_objc_release_x10"/>
+    <target name="_objc_release_x11"/>
+    <target name="_objc_release_x12"/>
+    <target name="_objc_release_x13"/>
+    <target name="_objc_release_x14"/>
+    <target name="_objc_release_x15"/>
+    <target name="_objc_release_x16"/>
+    <target name="_objc_release_x17"/>
+    <target name="_objc_release_x18"/>
+    <target name="_objc_release_x19"/>
+    <target name="_objc_release_x20"/>
+    <target name="_objc_release_x21"/>
+    <target name="_objc_release_x22"/>
+    <target name="_objc_release_x23"/>
+    <target name="_objc_release_x24"/>
+    <target name="_objc_release_x25"/>
+    <target name="_objc_release_x26"/>
+    <target name="_objc_release_x27"/>
+    <target name="_objc_release_x28"/>
+    <pcode>
+        <body><![CDATA[
+            x0 = 0;
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  callfixup__objc_retain_fixup = <callfixup name="_objc_retain_fixup">
+    <target name="_objc_retain"/>
+    <target name="_objc_retainAutoreleasedReturnValue"/>
+    <target name="_objc_retainAutoreleaseReturnValue"/>
+    <target name="_objc_autoreleaseReturnValue"/>
+    <target name="_objc_retainAutoRelease"/>
+    <target name="_objc_autorelease"/>
+    <target name="_objc_claimAutoreleasedReturnValue"/>
+    <target name="_objc_opt_self"/>
+    <target name="_objc_unsafeClaimAutoreleasedReturnValue"/>
+    <target name="_objc_retainBlock"/>
+    <target name="_objc_retain_x0"/>
+    <target name="_objc_retain_x1"/>
+    <target name="_objc_retain_x2"/>
+    <target name="_objc_retain_x3"/>
+    <target name="_objc_retain_x4"/>
+    <target name="_objc_retain_x5"/>
+    <target name="_objc_retain_x6"/>
+    <target name="_objc_retain_x7"/>
+    <target name="_objc_retain_x8"/>
+    <target name="_objc_retain_x9"/>
+    <target name="_objc_retain_x10"/>
+    <target name="_objc_retain_x11"/>
+    <target name="_objc_retain_x12"/>
+    <target name="_objc_retain_x13"/>
+    <target name="_objc_retain_x14"/>
+    <target name="_objc_retain_x15"/>
+    <target name="_objc_retain_x16"/>
+    <target name="_objc_retain_x17"/>
+    <target name="_objc_retain_x18"/>
+    <target name="_objc_retain_x19"/>
+    <target name="_objc_retain_x20"/>
+    <target name="_objc_retain_x21"/>
+    <target name="_objc_retain_x22"/>
+    <target name="_objc_retain_x23"/>
+    <target name="_objc_retain_x24"/>
+    <target name="_objc_retain_x25"/>
+    <target name="_objc_retain_x26"/>
+    <target name="_objc_retain_x27"/>
+    <target name="_objc_retain_x28"/>
+    <pcode>
+        <body><![CDATA[
+            x0 = x0;
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  callfixup__objc_setProperty_fixup = <callfixup name="_objc_setProperty_fixup">
+    <target name="_objc_setProperty"/>
+    <target name="_objc_setProperty_atomic"/>
+    <target name="_objc_setProperty_atomic_copy"/>
+    <target name="_objc_setProperty_nonatomic"/>
+    <target name="_objc_setProperty_nonatomic_copy"/>
+    <pcode>
+        <body><![CDATA[
+            *(x0 + x3) = x2;
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  callfixup__objc_store_fixup = <callfixup name="_objc_store_fixup">
+    <target name="_objc_storeStrong"/>
+    <target name="_objc_storeWeak"/>
+    <pcode>
+        <body><![CDATA[
+            *x0 = x1;
+        ]]></body>
+    </pcode>
+</callfixup>
+
+  prototype___objc_msgSend_stub = <prototype name="__objc_msgSend_stub" extrapop="0" stackshift="0">
+  <!-- Used for "_objc_msgSend$methodName" stubs, which don't consider x1 a parameter register-->
+  <input>
+    <pentry minsize="8" maxsize="8" storage="hiddenret">
+      <register name="x8"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q0"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q1"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q2"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q3"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q4"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q5"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q6"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q7"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x0"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x2"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x3"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x4"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x5"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x6"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x7"/>
+    </pentry>
+    <pentry minsize="1" maxsize="500" align="8">
+      <addr offset="0" space="stack"/>
+    </pentry>
+    <rule>
+      <datatype name="homogeneous-float-aggregate"/>
+      <join_per_primitive storage="float"/>
+    </rule>
+     <rule>
+      <datatype name="homogeneous-float-aggregate"/>
+      <goto_stack/>					<!-- Don't consume general purpose registers -->
+      <consume_extra storage="float"/> <!-- Once the stack has been used, don't go back to registers -->
+    </rule>
+    <rule>
+      <datatype name="struct" minsize="17"/>
+      <convert_to_ptr/>
+    </rule>
+    <rule>
+      <datatype name="union" minsize="17"/>
+      <convert_to_ptr/>
+    </rule>
+    <!-- Variadic arguments are passed differently than in the AARCH64 standard -->
+    <!-- See "Writing ARM64 Code for Apple Platforms" -->
+    <rule>   
+      <datatype name="any"/>
+      <varargs first="0"/>
+      <goto_stack/>
+    </rule>
+    <rule>
+      <datatype name="float"/>
+      <consume storage="float"/>
+    </rule>
+    <rule>
+      <datatype name="float"/>
+      <goto_stack/>					<!-- Don't consume general purpose registers -->
+    </rule>
+    <rule>
+      <datatype name="any"/>
+      <join align="true"/>          <!-- Chunk from general purpose registers -->
+    </rule>
+  </input>
+  <output>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q0"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q1"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q2"/>
+    </pentry>
+    <pentry minsize="1" maxsize="16" storage="float">
+      <register name="q3"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x0"/>
+    </pentry>
+    <pentry minsize="1" maxsize="8" extension="zero">
+      <register name="x1"/>
+    </pentry>
+    <rule>
+      <datatype name="homogeneous-float-aggregate"/>
+      <join_per_primitive storage="float"/>
+    </rule>
+    <rule>
+      <datatype name="float"/>
+      <consume storage="float"/>
+    </rule>
+    <rule>
+      <datatype name="any" minsize="17"/>
+      <hidden_return voidlock="true"/>
+    </rule>
+    <rule>
+      <datatype name="any"/>
+      <join/>
+    </rule>
+  </output>
+  <unaffected>
+    <register name="x19"/>
+    <register name="x20"/>
+    <register name="x21"/>
+    <register name="x22"/> 
+    <register name="x23"/> 
+    <register name="x24"/> 
+    <register name="x25"/> 
+    <register name="x26"/> 
+    <register name="x27"/> 
+    <register name="x28"/>
+    <register name="x29"/>
+    <register name="x30"/>
+    <register name="sp"/>
+    <!-- vectors -->
+    <register name="d8"/>
+    <register name="d9"/>
+    <register name="d10"/>
+    <register name="d11"/>
+    <register name="d12"/>
+    <register name="d13"/>
+    <register name="d14"/>
+    <register name="d15"/>
+  </unaffected>
+  <killedbycall>
+    <register name="x0"/>
+    <register name="x1"/>
+    <register name="q0"/>
+    <!-- x8: indirect result location register, which is not
+     reflected in the pentry list -->
+    <register name="x8"/>
+    <register name="x9"/>
+    <register name="x10"/>
+    <register name="x11"/>
+    <register name="x12"/>
+    <register name="x13"/>
+    <register name="x14"/>
+    <register name="x15"/>
+    <register name="x16"/>
+    <register name="x17"/>
+    <register name="x18"/>
+    <!-- vectors -->
+    <register name="d16"/>
+    <register name="d17"/>
+    <register name="d18"/>
+    <register name="d19"/>
+    <register name="d20"/>
+    <register name="d21"/>
+    <register name="d22"/>
+    <register name="d23"/>
+    <register name="d24"/>
+    <register name="d25"/>
+    <register name="d26"/>
+    <register name="d27"/>
+    <register name="d28"/>
+    <register name="d29"/>
+    <register name="d30"/>
+    <register name="d31"/>
+    </killedbycall>
+</prototype>
+[Analyzers]
+  AARCH64 ELF PLT Thunks = true
+  ASCII Strings = true
+  ASCII Strings.Create Strings Containing Existing Strings = true
+  ASCII Strings.Create Strings Containing References = true
+  ASCII Strings.Force Model Reload = false
+  ASCII Strings.Minimum String Length = LEN_5
+  ASCII Strings.Model File = StringModel.sng
+  ASCII Strings.Require Null Termination for String = true
+  ASCII Strings.Search Only in Accessible Memory Blocks = true
+  ASCII Strings.String Start Alignment = ALIGN_1
+  ASCII Strings.String end alignment = 4
+  Aggressive Instruction Finder = false
+  Aggressive Instruction Finder.Create Analysis Bookmarks = true
+  Apply Data Archives = true
+  Apply Data Archives.Archive Chooser = [Auto-Detect]
+  Apply Data Archives.Create Analysis Bookmarks = true
+  Apply Data Archives.GDT User File Archive Path = null
+  Apply Data Archives.User Project Archive Path = null
+  Basic Constant Reference Analyzer = true
+  Basic Constant Reference Analyzer.Create Data from pointer = false
+  Basic Constant Reference Analyzer.Function parameter/return Pointer analysis = true
+  Basic Constant Reference Analyzer.Max Threads = 2
+  Basic Constant Reference Analyzer.Min absolute reference = 4
+  Basic Constant Reference Analyzer.Require pointer param data type = false
+  Basic Constant Reference Analyzer.Speculative reference max = 512
+  Basic Constant Reference Analyzer.Speculative reference min = 1024
+  Basic Constant Reference Analyzer.Stored Value Pointer analysis = true
+  Basic Constant Reference Analyzer.Trust values read from writable memory = true
+  CFStrings = true
+  Call Convention ID = true
+  Call Convention ID.Analysis Decompiler Timeout (sec) = 60
+  Call-Fixup Installer = true
+  Condense Filler Bytes = false
+  Condense Filler Bytes.Filler Value = Auto
+  Condense Filler Bytes.Minimum number of sequential bytes = 1
+  Create Address Tables = true
+  Create Address Tables.Allow Offcut References = false
+  Create Address Tables.Auto Label Table = false
+  Create Address Tables.Create Analysis Bookmarks = true
+  Create Address Tables.Maxmimum Pointer Distance = 16777215
+  Create Address Tables.Minimum Pointer Address = 4132
+  Create Address Tables.Minimum Table Size = 2
+  Create Address Tables.Pointer Alignment = 1
+  Create Address Tables.Relocation Table Guide = true
+  Create Address Tables.Table Alignment = 4
+  Data Reference = true
+  Data Reference.Address Table Alignment = 1
+  Data Reference.Address Table Minimum Size = 2
+  Data Reference.Align End of Strings = false
+  Data Reference.Ascii String References = true
+  Data Reference.Create Address Tables = false
+  Data Reference.Minimum String Length = 5
+  Data Reference.References to Pointers = true
+  Data Reference.Relocation Table Guide = true
+  Data Reference.Respect Execute Flag = true
+  Data Reference.Subroutine References = true
+  Data Reference.Switch Table References = false
+  Data Reference.Unicode String References = true
+  Decompiler Parameter ID = false
+  Decompiler Parameter ID.Analysis Clear Level = ANALYSIS
+  Decompiler Parameter ID.Analysis Decompiler Timeout (sec) = 60
+  Decompiler Parameter ID.Commit Data Types = true
+  Decompiler Parameter ID.Commit Void Return Values = false
+  Decompiler Parameter ID.Prototype Evaluation = __cdecl
+  Decompiler Switch Analysis = true
+  Decompiler Switch Analysis.Analysis Decompiler Timeout (sec) = 60
+  Demangler GNU = true
+  Demangler GNU.Apply Function Calling Conventions = true
+  Demangler GNU.Apply Function Signatures = true
+  Demangler GNU.Demangle Only Known Mangled Symbols = false
+  Demangler GNU.Demangler Format = AUTO
+  Demangler GNU.Timeout (seconds) = 3
+  Demangler GNU.Use Deprecated Demangler = false
+  Demangler GNU.Use Standard Text Replacements = true
+  Disassemble Entry Points = true
+  Disassemble Entry Points.Respect Execute Flag = true
+  Embedded Media = true
+  Embedded Media.Create Analysis Bookmarks = true
+  External Entry References = true
+  External Symbol Resolver = true
+  Function ID = true
+  Function ID.Always Apply FID Labels = false
+  Function ID.Create Analysis Bookmarks = true
+  Function ID.Instruction Count Threshold = 14.6
+  Function ID.Multiple Match Threshold = 30.0
+  Function Start Search = true
+  Function Start Search After Code = true
+  Function Start Search After Code.Bookmark Functions = false
+  Function Start Search After Code.Search Data Blocks = false
+  Function Start Search After Data = true
+  Function Start Search After Data.Bookmark Functions = false
+  Function Start Search After Data.Search Data Blocks = false
+  Function Start Search.Bookmark Functions = false
+  Function Start Search.Search Data Blocks = false
+  Mach-O Function Starts = true
+  Mach-O Function Starts.Bookmark failed functions = false
+  Mach-O Function Starts.Bookmark new functions = false
+  Mach-O Function Starts.Bookmark skipped functions = false
+  Mach-O Function Starts.Use PseudoDisassembler = true
+  Non-Returning Functions - Discovered = true
+  Non-Returning Functions - Discovered.Create Analysis Bookmarks = true
+  Non-Returning Functions - Discovered.Function Non-return Threshold = 3
+  Non-Returning Functions - Discovered.Repair Flow Damage = true
+  Non-Returning Functions - Known = true
+  Non-Returning Functions - Known.Create Analysis Bookmarks = true
+  Objective-C Message Analyzer = true
+  Objective-C Message Analyzer.Log message fix failures = false
+  Objective-C Message Analyzer.Use CALL_OVERRIDE_UNCONDITIONAL references = true
+  Objective-C Type Metadata Analyzer = true
+  Reference = true
+  Reference.Address Table Alignment = 1
+  Reference.Address Table Minimum Size = 2
+  Reference.Align End of Strings = false
+  Reference.Ascii String References = true
+  Reference.Create Address Tables = false
+  Reference.Minimum String Length = 5
+  Reference.References to Pointers = true
+  Reference.Relocation Table Guide = true
+  Reference.Respect Execute Flag = true
+  Reference.Subroutine References = true
+  Reference.Switch Table References = false
+  Reference.Unicode String References = true
+  Scalar Operand References = false
+  Scalar Operand References.Relocation Table Guide = true
+  Shared Return Calls = true
+  Shared Return Calls.Allow Conditional Jumps = false
+  Shared Return Calls.Assume Contiguous Functions Only = true
+  Stack = true
+  Stack.Create Local Variables = true
+  Stack.Create Param Variables = false
+  Stack.Max Threads = 2
+  Subroutine References = true
+  Subroutine References.Create Thunks Early = true
+  Variadic Function Signature Override = false
+  Variadic Function Signature Override.Create Analysis Bookmarks = false
+[Program Information]
+  Analysis Times.Times = 253.690 seconds
+  Analyzed = true
+  Compiler = objc
+  Created With Ghidra Version = 12.1.4
+  Date Created = Tue Oct 06 15:29:20 SGT 2026
+  Executable Format = Mac OS X Mach-O
+  Executable Location = /home/user/tools/work/target_ace.dylib
+  Executable MD5 = 9c5a6c8a6d784ecf4d80253d13ab087b
+  Executable SHA256 = f1163751ea08b84c33c23ac2c26ffeb36c0e41de1819030f411a834b7ff550ef
+  FSRL = file:///home/user/tools/work/target_ace.dylib?MD5=9c5a6c8a6d784ecf4d80253d13ab087b
+  Mach-O File Type = DYLIB
+  Mach-O File Type Description = Dynamically Bound Shared Library
+  Mach-O Flag 0 = NOUNDEFS
+  Mach-O Flag 1 = DYLDLINK
+  Mach-O Flag 2 = TWOLEVEL
+  Mach-O Flag 3 = WEAK_DEFINES
+  Mach-O Flag 4 = BINDS_TO_WEAK
+  Mach-O Flag 5 = NO_REEXPORTED_DYLIBS
+  Mach-O Flag 6 = HAS_TLV_DESCRIPTORS
+  Preferred Root Namespace Category = /Demangler
+  Relocatable = true
+  Required Library [    0] = /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+  Required Library [    1] = /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+  Required Library [    2] = /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+  Required Library [    3] = /System/Library/Frameworks/Security.framework/Security
+  Required Library [    4] = /System/Library/Frameworks/Accelerate.framework/Accelerate
+  Required Library [    5] = /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+  Required Library [    6] = /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+  Required Library [    7] = /usr/lib/libz.1.dylib
+  Required Library [    8] = /System/Library/Frameworks/Foundation.framework/Foundation
+  Required Library [    9] = /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  Required Library [   10] = /System/Library/Frameworks/UIKit.framework/UIKit
+  Required Library [   11] = /System/Library/Frameworks/Metal.framework/Metal
+  Required Library [   12] = /usr/lib/libSystem.B.dylib
+  Required Library [   13] = /usr/lib/libc++.1.dylib
+  Required Library [   14] = /System/Library/Frameworks/MetalKit.framework/MetalKit
+  Required Library [   15] = /usr/lib/libobjc.A.dylib
+  Should Ask To Analyze = false
