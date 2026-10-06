@@ -1,0 +1,523 @@
+
+====================================================================================================
+### MEMORY BLOCKS as loaded by Ghidra Mach-O loader
+====================================================================================================
+=== MEMORY BLOCKS (segments/sections as loaded by Ghidra Mach-O loader) ===
+name | start | end | size | R | W | X | initialized | type | sourceName | comment
+__TEXT                   | 00000000           | 00003fff           | 16384      | R=1 W=0 X=1 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__text                   | 00004000           | 0014f4e7           | 1357032    | R=1 W=0 X=1 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__stubs                  | 0014f4e8           | 0015003f           | 2904       | R=1 W=0 X=1 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__stub_helper            | 00150040           | 00150b9f           | 2912       | R=1 W=0 X=1 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__const                  | 00150ba0           | 003d8c03           | 2654308    | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__gcc_except_tab         | 003d8c04           | 003dd8a7           | 19620      | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__objc_classname         | 003dd8a8           | 003dda0a           | 355        | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__objc_methname          | 003dda0b           | 003e0aaf           | 12453      | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__objc_methtype          | 003e0ab0           | 003e1899           | 3562       | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__cstring                | 003e189a           | 003e3d11           | 9336       | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__ustring                | 003e3d12           | 003e3dd3           | 194        | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__unwind_info            | 003e3dd4           | 003e577f           | 6572       | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__eh_frame               | 003e5780           | 003e7fff           | 10368      | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __TEXT
+__got                    | 003e8000           | 003e81cf           | 464        | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__la_symbol_ptr          | 003e81d0           | 003e894f           | 1920       | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__mod_init_func          | 003e8950           | 003e8a5f           | 272        | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__const                  | 003e8a60           | 003e9457           | 2552       | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__cfstring               | 003e9458           | 003e9cb7           | 2144       | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_classlist         | 003e9cb8           | 003e9d3f           | 136        | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_nlclslist         | 003e9d40           | 003e9d4f           | 16         | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_catlist           | 003e9d50           | 003e9d5f           | 16         | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_protolist         | 003e9d60           | 003e9d8f           | 48         | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_imageinfo         | 003e9d90           | 003e9d97           | 8          | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_const             | 003e9d98           | 003ecfef           | 12888      | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_selrefs           | 003ecff0           | 003eddcf           | 3552       | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_classrefs         | 003eddd0           | 003edfff           | 560        | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_superrefs         | 003ee000           | 003ee047           | 72         | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_ivar              | 003ee048           | 003ee0fb           | 180        | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__DATA                   | 003ee0fc           | 003ee0ff           | 4          | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__objc_data              | 003ee100           | 003ee6ff           | 1536       | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__data                   | 003ee700           | 003ef237           | 2872       | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__thread_vars            | 003ef238           | 003ef46f           | 568        | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__bss                    | 003ef470           | 003effff           | 2960       | R=1 W=1 X=0 | init=true  | Default        | src=target_ace.dylib         | __DATA
+__bss                    | 003f0000           | 003ff3e7           | 62440      | R=1 W=1 X=0 | init=false | Default        | src=target_ace.dylib         | __DATA
+__common                 | 003ff3e8           | 003ff888           | 1185       | R=1 W=1 X=0 | init=false | Default        | src=target_ace.dylib         | __DATA
+__DATA                   | 003ff889           | 003fffff           | 1911       | R=1 W=1 X=0 | init=false | Default        | src=target_ace.dylib         | __DATA
+__LINKEDIT               | 00400000           | 0041310f           | 78096      | R=1 W=0 X=0 | init=true  | Default        | src=target_ace.dylib         | __LINKEDIT
+__LINKEDIT               | 00413110           | 00413fff           | 3824       | R=1 W=0 X=0 | init=false | Default        | src=target_ace.dylib         | __LINKEDIT
+EXTERNAL                 | 00414000           | 0041b3ff           | 29696      | R=1 W=1 X=0 | init=false | Default        | src=null                     | NOTE: This block is artificial and is used to make relocations work correctly
+
+=== BLOCK DETAIL ===
+---------------------------------------------
+Name        : __TEXT
+Start       : 00000000
+End         : 00003fff
+Size        : 16384 (0x4000)
+Permissions : read=true write=false execute=true
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __text
+Start       : 00004000
+End         : 0014f4e7
+Size        : 1357032 (0x14b4e8)
+Permissions : read=true write=false execute=true
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __stubs
+Start       : 0014f4e8
+End         : 0015003f
+Size        : 2904 (0xb58)
+Permissions : read=true write=false execute=true
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __stub_helper
+Start       : 00150040
+End         : 00150b9f
+Size        : 2912 (0xb60)
+Permissions : read=true write=false execute=true
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __const
+Start       : 00150ba0
+End         : 003d8c03
+Size        : 2654308 (0x288064)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __gcc_except_tab
+Start       : 003d8c04
+End         : 003dd8a7
+Size        : 19620 (0x4ca4)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_classname
+Start       : 003dd8a8
+End         : 003dda0a
+Size        : 355 (0x163)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_methname
+Start       : 003dda0b
+End         : 003e0aaf
+Size        : 12453 (0x30a5)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_methtype
+Start       : 003e0ab0
+End         : 003e1899
+Size        : 3562 (0xdea)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __cstring
+Start       : 003e189a
+End         : 003e3d11
+Size        : 9336 (0x2478)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __ustring
+Start       : 003e3d12
+End         : 003e3dd3
+Size        : 194 (0xc2)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __unwind_info
+Start       : 003e3dd4
+End         : 003e577f
+Size        : 6572 (0x19ac)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __eh_frame
+Start       : 003e5780
+End         : 003e7fff
+Size        : 10368 (0x2880)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __got
+Start       : 003e8000
+End         : 003e81cf
+Size        : 464 (0x1d0)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __la_symbol_ptr
+Start       : 003e81d0
+End         : 003e894f
+Size        : 1920 (0x780)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __mod_init_func
+Start       : 003e8950
+End         : 003e8a5f
+Size        : 272 (0x110)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __const
+Start       : 003e8a60
+End         : 003e9457
+Size        : 2552 (0x9f8)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __cfstring
+Start       : 003e9458
+End         : 003e9cb7
+Size        : 2144 (0x860)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_classlist
+Start       : 003e9cb8
+End         : 003e9d3f
+Size        : 136 (0x88)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_nlclslist
+Start       : 003e9d40
+End         : 003e9d4f
+Size        : 16 (0x10)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_catlist
+Start       : 003e9d50
+End         : 003e9d5f
+Size        : 16 (0x10)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_protolist
+Start       : 003e9d60
+End         : 003e9d8f
+Size        : 48 (0x30)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_imageinfo
+Start       : 003e9d90
+End         : 003e9d97
+Size        : 8 (0x8)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_const
+Start       : 003e9d98
+End         : 003ecfef
+Size        : 12888 (0x3258)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_selrefs
+Start       : 003ecff0
+End         : 003eddcf
+Size        : 3552 (0xde0)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_classrefs
+Start       : 003eddd0
+End         : 003edfff
+Size        : 560 (0x230)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_superrefs
+Start       : 003ee000
+End         : 003ee047
+Size        : 72 (0x48)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_ivar
+Start       : 003ee048
+End         : 003ee0fb
+Size        : 180 (0xb4)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __DATA
+Start       : 003ee0fc
+End         : 003ee0ff
+Size        : 4 (0x4)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __objc_data
+Start       : 003ee100
+End         : 003ee6ff
+Size        : 1536 (0x600)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __data
+Start       : 003ee700
+End         : 003ef237
+Size        : 2872 (0xb38)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __thread_vars
+Start       : 003ef238
+End         : 003ef46f
+Size        : 568 (0x238)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __bss
+Start       : 003ef470
+End         : 003effff
+Size        : 2960 (0xb90)
+Permissions : read=true write=true execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __bss
+Start       : 003f0000
+End         : 003ff3e7
+Size        : 62440 (0xf3e8)
+Permissions : read=true write=true execute=false
+Initialized : false
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __common
+Start       : 003ff3e8
+End         : 003ff888
+Size        : 1185 (0x4a1)
+Permissions : read=true write=true execute=false
+Initialized : false
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __DATA
+Start       : 003ff889
+End         : 003fffff
+Size        : 1911 (0x777)
+Permissions : read=true write=true execute=false
+Initialized : false
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __LINKEDIT
+Start       : 00400000
+End         : 0041310f
+Size        : 78096 (0x13110)
+Permissions : read=true write=false execute=false
+Initialized : true
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : __LINKEDIT
+Start       : 00413110
+End         : 00413fff
+Size        : 3824 (0xef0)
+Permissions : read=true write=false execute=false
+Initialized : false
+Volatile    : false
+Artificial  : false
+Type        : Default
+Source      : target_ace.dylib
+---------------------------------------------
+Name        : EXTERNAL
+Start       : 00414000
+End         : 0041b3ff
+Size        : 29696 (0x7400)
+Permissions : read=true write=true execute=false
+Initialized : false
+Volatile    : false
+Artificial  : true
+Type        : Default
+Source      : null
+
+====================================================================================================
+### RAW MACH-O SEGMENTS & SECTIONS (with file offsets / flags)
+====================================================================================================
+=== SEGMENTS ===
+segname                vmaddr       vmsize    fileoff   filesize  maxprot initprot nsects    flags
+__TEXT           0x         0 0x    3e8000 0x       0 0x  3e8000        5        5     12 0x0
+__DATA           0x    3e8000 0x     18000 0x  3e8000 0x    8000        3        3     21 0x0
+__LINKEDIT       0x    400000 0x     14000 0x  3f0000 0x   13110        1        1      0 0x0
+
+=== SECTIONS ===
+segname          sectname                         addr       size     offset  align  nreloc        flags  attributes
+__TEXT           __text                   0x      4000 0x  14b4e8 0x    4000      4       0 0x  80000400  , S_ATTR_PURE_INSTRUCTIONS, S_ATTR_SOME_INSTRUCTIONS
+__TEXT           __stubs                  0x    14f4e8 0x     b58 0x  14f4e8      2       0 0x  80000408  S_SYMBOL_STUBS, S_ATTR_PURE_INSTRUCTIONS, S_ATTR_SOME_INSTRUCTIONS
+__TEXT           __stub_helper            0x    150040 0x     b58 0x  150040      2       0 0x  80000400  , S_ATTR_PURE_INSTRUCTIONS, S_ATTR_SOME_INSTRUCTIONS
+__TEXT           __const                  0x    150ba0 0x  288061 0x  150ba0      4       0 0x         0  
+__TEXT           __gcc_except_tab         0x    3d8c04 0x    4ca4 0x  3d8c04      2       0 0x         0  
+__TEXT           __objc_classname         0x    3dd8a8 0x     163 0x  3dd8a8      0       0 0x         2  S_CSTRING_LITERALS
+__TEXT           __objc_methname          0x    3dda0b 0x    30a5 0x  3dda0b      0       0 0x         2  S_CSTRING_LITERALS
+__TEXT           __objc_methtype          0x    3e0ab0 0x     dea 0x  3e0ab0      0       0 0x         2  S_CSTRING_LITERALS
+__TEXT           __cstring                0x    3e189a 0x    2478 0x  3e189a      0       0 0x         2  S_CSTRING_LITERALS
+__TEXT           __ustring                0x    3e3d12 0x      c0 0x  3e3d12      1       0 0x         0  
+__TEXT           __unwind_info            0x    3e3dd4 0x    19a8 0x  3e3dd4      2       0 0x         0  
+__TEXT           __eh_frame               0x    3e5780 0x     484 0x  3e5780      3       0 0x  6800000b  S_COALESCED
+__DATA           __got                    0x    3e8000 0x     1d0 0x  3e8000      3       0 0x         6  S_NON_LAZY_SYMBOL_POINTERS
+__DATA           __la_symbol_ptr          0x    3e81d0 0x     780 0x  3e81d0      3       0 0x         7  S_LAZY_SYMBOL_POINTERS
+__DATA           __mod_init_func          0x    3e8950 0x     110 0x  3e8950      3       0 0x         9  S_MOD_INIT_FUNC_POINTERS
+__DATA           __const                  0x    3e8a60 0x     9f8 0x  3e8a60      3       0 0x         0  
+__DATA           __cfstring               0x    3e9458 0x     860 0x  3e9458      3       0 0x         0  
+__DATA           __objc_classlist         0x    3e9cb8 0x      88 0x  3e9cb8      3       0 0x  10000000  , S_ATTR_NO_DEAD_STRIP
+__DATA           __objc_nlclslist         0x    3e9d40 0x      10 0x  3e9d40      3       0 0x  10000000  , S_ATTR_NO_DEAD_STRIP
+__DATA           __objc_catlist           0x    3e9d50 0x      10 0x  3e9d50      3       0 0x  10000000  , S_ATTR_NO_DEAD_STRIP
+__DATA           __objc_protolist         0x    3e9d60 0x      30 0x  3e9d60      3       0 0x         b  S_COALESCED
+__DATA           __objc_imageinfo         0x    3e9d90 0x       8 0x  3e9d90      2       0 0x         0  
+__DATA           __objc_const             0x    3e9d98 0x    3258 0x  3e9d98      3       0 0x         0  
+__DATA           __objc_selrefs           0x    3ecff0 0x     de0 0x  3ecff0      3       0 0x  10000005  S_LITERAL_POINTERS, S_ATTR_NO_DEAD_STRIP
+__DATA           __objc_classrefs         0x    3eddd0 0x     230 0x  3eddd0      3       0 0x  10000000  , S_ATTR_NO_DEAD_STRIP
+__DATA           __objc_superrefs         0x    3ee000 0x      48 0x  3ee000      3       0 0x  10000000  , S_ATTR_NO_DEAD_STRIP
+__DATA           __objc_ivar              0x    3ee048 0x      b4 0x  3ee048      2       0 0x         0  
+__DATA           __objc_data              0x    3ee100 0x     550 0x  3ee100      3       0 0x         0  
+__DATA           __data                   0x    3ee700 0x     b38 0x  3ee700      8       0 0x         0  
+__DATA           __thread_vars            0x    3ef238 0x      30 0x  3ef238      3       0 0x        13  S_THREAD_LOCAL_VARIABLES
+__DATA           __thread_bss             0x    3ef268 0x     208 0x       0      3       0 0x        12  S_THREAD_LOCAL_ZEROFILL
+__DATA           __bss                    0x    3ef470 0x    ff78 0x       0      4       0 0x         1  S_ZEROFILL
+__DATA           __common                 0x    3ff3e8 0x     4a1 0x       0      3       0 0x         1  S_ZEROFILL
+
+TOTAL SECTIONS = 33

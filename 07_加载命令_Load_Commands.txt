@@ -1,0 +1,98 @@
+
+====================================================================================================
+### MACH-O HEADER
+====================================================================================================
+=== MACH-O HEADER ===
+Magic            : 0xfeedfacf  (MH_MAGIC_64 = 0xfeedfacf)
+CPU Type         : 16777228 (arm64)
+CPU Subtype      : 0  (0x0, caps=0x0)
+File Type        : 6 (MH_DYLIB)
+Number of Commands: 29
+Size of Commands : 4440 (0x1158)
+Flags            : 0x00918085
+   flag bit set: MH_NOUNDEFS
+   flag bit set: MH_DYLDLINK
+   flag bit set: MH_TWOLEVEL
+   flag bit set: MH_WEAK_DEFINES
+   flag bit set: MH_BINDS_TO_WEAK
+   flag bit set: MH_NO_REEXPORTED_DYLIBS
+   flag bit set: MH_HAS_TLV_DESCRIPTORS
+Reserved         : 0x0
+
+=== SECTION FLAG CONSTANTS ===
+S_ATTR_PURE_INSTRUCTIONS = 0x80000000, S_ATTR_SOME_INSTRUCTIONS = 0x00000400
+S_ZEROFILL = 0x00000001, S_CSTRING_LITERALS = 0x00000002, S_ATTR_NO_DEAD_STRIP = 0x10000000
+
+====================================================================================================
+### LOAD COMMANDS
+====================================================================================================
+=== LOAD COMMANDS ===
+ idx command                       cmdsize  details
+   0 LC_SEGMENT_64                    1032  segname='__TEXT' vmaddr=0x0 vmsize=0x3e8000 fileoff=0x0 filesize=0x3e8000 maxprot=0x5 initprot=0x5 nsects=12 flags=0x0
+   1 LC_SEGMENT_64                    1752  segname='__DATA' vmaddr=0x3e8000 vmsize=0x18000 fileoff=0x3e8000 filesize=0x8000 maxprot=0x3 initprot=0x3 nsects=21 flags=0x0
+   2 LC_SEGMENT_64                      72  segname='__LINKEDIT' vmaddr=0x400000 vmsize=0x14000 fileoff=0x3f0000 filesize=0x13110 maxprot=0x1 initprot=0x1 nsects=0 flags=0x0
+   3 LC_ID_DYLIB                        48  name=/Library/1.dylib timestamp=1 current_version=1.0.0 compat_version=1.0.0
+   4 LC_DYLD_INFO_ONLY                  48  rebase=(4128768,696) bind=(4129464,4016) weak=(4133480,216) lazy=(4133696,6000) export=(4139696,432)
+   5 LC_SYMTAB                          24  symoff=0x3f2c60 nsyms=375 stroff=0x3f4c40 strsize=7704
+   6 LC_DYSYMTAB                        80  ilocalsym=0 nlocalsym=1 iextdefsym=1 nextdefsym=16 iundefsym=17 nundefsym=358 tocoff=0 ntoc=0 modtaboff=0 nmodtab=0 extrefsymoff=0 nextrefsyms=0 indirectsymoff=4146128 nindirectsyms=540 extreloff=0 nextrel=0 locreloff=0 nlocrel=0
+   7 LC_UUID                            24  uuid=f15f00d5-7d43-38aa-88cc-90ed438057a9
+   8 LC_BUILD_VERSION                   32  platform=2(iOS) minos=12.0.0 sdk=26.2.0 ntools=1 | tool[0]=3 version=1230.1.0
+   9 LC_SOURCE_VERSION                  16  version=0x0
+  10 LC_ENCRYPTION_INFO_64              24  cryptoff=0x4000 cryptsize=0x3e4000 cryptid=0 (0=NOT encrypted)
+  11 LC_LOAD_DYLIB                      96  name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation timestamp=2 current_version=4201.0.0 compat_version=150.0.0
+  12 LC_LOAD_DYLIB                      88  name=/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics timestamp=2 current_version=1965.2.3 compat_version=64.0.0
+  13 LC_LOAD_DYLIB                     104  name=/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration timestamp=2 current_version=1385.60.3 compat_version=1.0.0
+  14 LC_LOAD_DYLIB                      80  name=/System/Library/Frameworks/Security.framework/Security timestamp=2 current_version=61901.60.40 compat_version=1.0.0
+  15 LC_LOAD_DYLIB                      88  name=/System/Library/Frameworks/Accelerate.framework/Accelerate timestamp=2 current_version=4.0.0 compat_version=1.0.0
+  16 LC_LOAD_DYLIB                      88  name=/System/Library/Frameworks/QuartzCore.framework/QuartzCore timestamp=2 current_version=1193.47.2 compat_version=1.2.0
+  17 LC_LOAD_DYLIB                      88  name=/System/Library/Frameworks/CFNetwork.framework/CFNetwork timestamp=2 current_version=3860.255.31 compat_version=1.0.0
+  18 LC_LOAD_DYLIB                      48  name=/usr/lib/libz.1.dylib timestamp=2 current_version=1.2.12 compat_version=1.0.0
+  19 LC_LOAD_DYLIB                      88  name=/System/Library/Frameworks/Foundation.framework/Foundation timestamp=2 current_version=4201.0.0 compat_version=300.0.0
+  20 LC_LOAD_DYLIB                      88  name=/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit timestamp=2 current_version=275.0.0 compat_version=1.0.0
+  21 LC_LOAD_DYLIB                      80  name=/System/Library/Frameworks/UIKit.framework/UIKit timestamp=2 current_version=9126.2.4 compat_version=1.0.0
+  22 LC_LOAD_DYLIB                      80  name=/System/Library/Frameworks/Metal.framework/Metal timestamp=2 current_version=370.64.2 compat_version=1.0.0
+  23 LC_LOAD_DYLIB                      56  name=/usr/lib/libSystem.B.dylib timestamp=2 current_version=1356.0.0 compat_version=1.0.0
+  24 LC_LOAD_DYLIB                      48  name=/usr/lib/libc++.1.dylib timestamp=2 current_version=2000.67.0 compat_version=1.0.0
+  25 LC_LOAD_DYLIB                      80  name=/System/Library/Frameworks/MetalKit.framework/MetalKit timestamp=2 current_version=172.3.0 compat_version=1.0.0
+  26 LC_LOAD_DYLIB                      56  name=/usr/lib/libobjc.A.dylib timestamp=2 current_version=228.0.0 compat_version=1.0.0
+  27 LC_DATA_IN_CODE                    16  dataoff=0x3f2c60 datasize=0x0
+  28 LC_CODE_SIGNATURE                  16  dataoff=0x3f6a60 datasize=0xc6b0
+
+TOTAL LOAD COMMANDS PARSED = 29
+
+=== DYLIB IDENTITY (LC_ID_DYLIB) ===
+install name: /Library/1.dylib
+
+=== DEPENDENT LIBRARIES (LC_LOAD_DYLIB / weak / reexport / upward) ===
+(ordinal shown = dylib ordinal used by bind info)
+[ord  1] LC_LOAD_DYLIB            /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation  (current=4201.0.0)
+[ord  2] LC_LOAD_DYLIB            /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics  (current=1965.2.3)
+[ord  3] LC_LOAD_DYLIB            /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration  (current=1385.60.3)
+[ord  4] LC_LOAD_DYLIB            /System/Library/Frameworks/Security.framework/Security  (current=61901.60.40)
+[ord  5] LC_LOAD_DYLIB            /System/Library/Frameworks/Accelerate.framework/Accelerate  (current=4.0.0)
+[ord  6] LC_LOAD_DYLIB            /System/Library/Frameworks/QuartzCore.framework/QuartzCore  (current=1193.47.2)
+[ord  7] LC_LOAD_DYLIB            /System/Library/Frameworks/CFNetwork.framework/CFNetwork  (current=3860.255.31)
+[ord  8] LC_LOAD_DYLIB            /usr/lib/libz.1.dylib  (current=1.2.12)
+[ord  9] LC_LOAD_DYLIB            /System/Library/Frameworks/Foundation.framework/Foundation  (current=4201.0.0)
+[ord 10] LC_LOAD_DYLIB            /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit  (current=275.0.0)
+[ord 11] LC_LOAD_DYLIB            /System/Library/Frameworks/UIKit.framework/UIKit  (current=9126.2.4)
+[ord 12] LC_LOAD_DYLIB            /System/Library/Frameworks/Metal.framework/Metal  (current=370.64.2)
+[ord 13] LC_LOAD_DYLIB            /usr/lib/libSystem.B.dylib  (current=1356.0.0)
+[ord 14] LC_LOAD_DYLIB            /usr/lib/libc++.1.dylib  (current=2000.67.0)
+[ord 15] LC_LOAD_DYLIB            /System/Library/Frameworks/MetalKit.framework/MetalKit  (current=172.3.0)
+[ord 16] LC_LOAD_DYLIB            /usr/lib/libobjc.A.dylib  (current=228.0.0)
+
+=== RPATHS ===
+(none)
+
+=== BUILD / PLATFORM INFO ===
+Platform : 2 (iOS)
+Min OS   : 12.0.0
+SDK      : 26.2.0
+UUID     : f15f00d57d4338aa88cc90ed438057a9
+
+=== LINKEDIT DATA COMMANDS ===
+LC_CODE_SIGNATURE  : (4156000, 50864)
+LC_FUNCTION_STARTS : None
+LC_ENCRYPTION_INFO : (16384, 4079616, 0)
+LC_DYLD_INFO(_ONLY): {'rebase_off': 4128768, 'rebase_size': 696, 'bind_off': 4129464, 'bind_size': 4016, 'weak_off': 4133480, 'weak_size': 216, 'lazy_off': 4133696, 'lazy_size': 6000, 'export_off': 4139696, 'export_size': 432}

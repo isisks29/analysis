@@ -1,0 +1,33 @@
+
+====================================================================================================
+### EXPORTS — Ghidra Symbol Table
+====================================================================================================
+=== EXPORTS (exported globals) — count=2 ===
+Function | _malloc | 0013fc78 | ns=Global | primary=true
+Function | _free | 0013fc7c | ns=Global | primary=true
+
+====================================================================================================
+### EXPORTS — Mach-O export trie
+====================================================================================================
+=== EXPORT TRIE (LC_DYLD_EXPORTS_TRIE / dyld_info export) ===
+trie at file offset 0x3f2ab0, size 0x1b0
+
+symbol                                                                        address   flags  extra
+_DobbyCodePatch                                                        0x      14cfdc       0  
+_DobbyDestroy                                                          0x      14bac4       0  
+_DobbyInstrument                                                       0x      14bd7c       4  
+_DobbySymbolResolver                                                   0x      14e71c       0  
+_JZSkyEye_UpdateViewReplacement                                        0x        4ccc       0  
+_JZSkyEye_UpdateViewTrampoline                                         0x        4ce8       0  
+__Z11placeholderv                                                      0x      14bbc8       0  
+_closure_bridge_asm                                                    0x      14b9a0       0  
+_closure_bridge_asm_end                                                0x      14ba84       0  
+_closure_trampoline_asm                                                0x      14ba90       0  
+_closure_trampoline_asm_end                                            0x      14bac4       0  
+_common_closure_bridge_handler                                         0x      14be74       4  
+_dobby_register_alloc_near_code_callback                               0x      14bbbc       4  
+_dobby_set_near_trampoline                                             0x      14bbb0       4  
+_dobby_set_options                                                     0x      14bb9c       0  
+_pm_poolmin_prepare                                                    0x       96248       0  
+
+TOTAL EXPORTS = 16
