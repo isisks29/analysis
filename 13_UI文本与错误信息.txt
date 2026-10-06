@@ -1,0 +1,15 @@
+
+====================================================================================================
+### UI TEXT / ERROR MESSAGES (heuristic classification)
+====================================================================================================
+=== UI TEXT / ERROR MESSAGES (heuristic) — count=9 ===
+source | address | string
+__cstring    |     0x3e18ff | 基地址: 0x%llX
+__cstring    |     0x3e23ce | 自己ID: %llu
+__cstring    |     0x3e23dd | 队友ID: %llu
+__cstring    |     0x3e2ad7 | 状态:已锁定 (目标 %d/%d，倒计时 %ds)
+__cstring    |     0x3e2df0 | ▲ 追%s ON | 队友ID=%llu | %s
+__cstring    |     0x3e38f9 | unknown
+__cstring    |     0x3e3988 | SAMKeychainErrorBadArguments
+__cstring    |     0x3e39fb | errSecItemNotFound
+__cstring    |     0x3e3a37 | errSecAuthFailed

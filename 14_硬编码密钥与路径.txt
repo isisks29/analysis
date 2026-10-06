@@ -1,0 +1,33 @@
+
+====================================================================================================
+### HARDCODED KEYS / TOKENS / SECRETS / PATHS / URLs (heuristic)
+====================================================================================================
+=== HARDCODED KEYS / TOKENS / SECRETS (heuristic) — count=3 ===
+source | address | string
+__cstring    |     0x3e3906 | encrypted_key
+__cstring    |     0x3e3975 | SAMKeychain
+__cstring    |     0x3e3a9f | com.samsoffes.samkeychain
+
+
+=== PATHS / URLs (heuristic) — count=20 ===
+source | address | string
+raw-ascii    |        0xb60 | /Library/1.dylib
+raw-ascii    |        0xc88 | /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+raw-ascii    |        0xce8 | /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+raw-ascii    |        0xd40 | /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+raw-ascii    |        0xda8 | /System/Library/Frameworks/Security.framework/Security
+raw-ascii    |        0xdf8 | /System/Library/Frameworks/Accelerate.framework/Accelerate
+raw-ascii    |        0xe50 | /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+raw-ascii    |        0xea8 | /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+raw-ascii    |        0xf00 | /usr/lib/libz.1.dylib
+raw-ascii    |        0xf30 | /System/Library/Frameworks/Foundation.framework/Foundation
+raw-ascii    |        0xf88 | /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+raw-ascii    |        0xfe0 | /System/Library/Frameworks/UIKit.framework/UIKit
+__cstring    |     0x3e3bd6 | /usr/lib/dyld
+__cstring    |     0x3e3cc7 | /System/Library/CoreServices/SystemVersion.plist
+raw-ascii    |       0x1030 | /System/Library/Frameworks/Metal.framework/Metal
+raw-ascii    |       0x1080 | /usr/lib/libSystem.B.dylib
+raw-ascii    |       0x10b8 | /usr/lib/libc++.1.dylib
+raw-ascii    |       0x10e8 | /System/Library/Frameworks/MetalKit.framework/MetalKit
+raw-ascii    |       0x1138 | /usr/lib/libobjc.A.dylib
+raw-ascii    |      0xb1437 | /S:a.4:an1:a.R:anUZ n6Z n
